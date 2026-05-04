@@ -1,0 +1,46 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# venv
+.venv/
+venv/
+env/
+
+# data / cache
+.repomind_cache/
+data/
+ingested_repos/
+*.pkl
+*.parquet
+
+# secrets
+.env
+.env.local
+*.pem
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# notebooks
+.ipynb_checkpoints/
+
+# model artifacts
+checkpoints/
+adapters/
+*.safetensors
+*.bin
+
+# logs
+logs/
+*.log
+wandb/
+.benchmarks/
+.pytest_cache/
