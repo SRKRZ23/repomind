@@ -6,6 +6,7 @@
 [![ROCm 7](https://img.shields.io/badge/ROCm-7.0-red)](https://rocm.docs.amd.com/)
 [![vLLM](https://img.shields.io/badge/vLLM-Day0_Qwen3_Coder-blue)](https://www.amd.com/en/developer/resources/technical-articles/2026/day-0-support-for-qwen3-coder-next-on-amd-instinct-gpus.html)
 [![AMD Hackathon](https://img.shields.io/badge/AMD_Developer_Hackathon-2026-orange)](https://lablab.ai/ai-hackathons/amd-developer)
+[![HF Space](https://img.shields.io/badge/🤗_Hugging_Face-Space-blue)](https://huggingface.co/spaces/ZeroR3/repomind)
 
 ## What this is
 
