@@ -1,6 +1,6 @@
 # REPOMIND
 
-> Open-source Cursor for self-hosters. Ingest an entire git repo (256K tokens), reason across it with tools — on a single AMD MI300X.
+> Open-source repo-scale coding agent for self-hosted use. Ingest an entire git repo (256K tokens), reason across it with tools — on a single AMD MI300X.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![ROCm 7](https://img.shields.io/badge/ROCm-7.0-red)](https://rocm.docs.amd.com/)
@@ -54,7 +54,7 @@ The phantom piece is **192 GB HBM3 on a single chip**. NVIDIA H100 caps at 80 GB
 └──────────────────────────────────────────────────────────────┘
 ```
 
-## Status (kickoff day, 2026-05-04)
+## Status
 
 - [x] Repo skeleton, LICENSE, .gitignore, requirements
 - [x] Ingestion pipeline scaffolding (no GPU)
@@ -64,11 +64,12 @@ The phantom piece is **192 GB HBM3 on a single chip**. NVIDIA H100 caps at 80 GB
 - [x] Gradio UI scaffold
 - [x] Benchmarks plan (H100 OOM reference)
 - [x] Unit tests passing without GPU
-- [ ] $100 AMD Cloud credits (ETA 2 business days)
+- [x] HuggingFace Space deploy (in `lablab-ai-amd-developer-hackathon` org)
+- [x] $100 AMD Cloud credits (received in 2 hours, not 2 business days)
+- [x] lablab.ai team + draft submission registered
 - [ ] MI300X spinup + vLLM smoke test (10K → 50K → 200K context)
 - [ ] Repo ingestion smoke test on Linux kernel
 - [ ] LoRA fine-tune on code-specific subset (Track 2 bonus)
-- [ ] HuggingFace Space deploy
 - [ ] Demo video (3–5 min)
 - [ ] Submit on lablab.ai before 2026-05-11 00:00 Tashkent
 
