@@ -51,7 +51,7 @@ Everything will be MIT. The story I want AMD's marketing team to be able to
 tell at re:Invent: "the open-source coding agent that proves the MI300X memory
 advantage matters for real workflows."
 
-Day-by-day on X: [your X handle here]
+Day-by-day on X: @SardorRazi99093
 Repo goes public tonight: github.com/SRKRZ23/repomind
 
 #AMDHackathon #ROCm #OpenSource #LLM #AIInfrastructure
