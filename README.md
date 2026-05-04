@@ -10,19 +10,19 @@
 
 ## What this is
 
-A **long-context coding agent** that reads an entire git repository (up to 256K tokens, FP8) on a **single AMD Instinct MI300X**, then answers any question about the code with multi-step reasoning and real tool use (read, grep, execute, test, git).
+A **long-context coding agent** designed to read an entire git repository (up to 256K tokens, FP8) on a **single AMD Instinct MI300X**, then answer any question about the code with multi-step reasoning and real tool use (read, grep, execute, test, git).
 
-Cursor and Claude Code can't do this.
+Closed-source coding agents (Cursor, Claude Code, etc.) can't do this:
 
 - They are closed source. Your enterprise code can't leave your infrastructure.
 - They don't load entire repositories — they retrieve fragments.
 - They cost $19–$40 per developer per month.
 
-REPOMIND is open-source MIT, runs on your own GPU, sees your whole codebase.
+REPOMIND is open-source MIT, runs on your own GPU, sees your whole codebase by design.
 
 ## Why MI300X
 
-The phantom piece is **192 GB HBM3 on a single chip**. NVIDIA H100 caps at 80 GB. To run Qwen3-Coder-Next at 256K context in FP8, you need ~150 GB of KV cache + weights — single-GPU H100 physically OOMs. AMD's own [Day-0 ROCm support post](https://www.amd.com/en/developer/resources/technical-articles/2026/day-0-support-for-qwen3-coder-next-on-amd-instinct-gpus.html) confirms this is exactly the workload MI300X was built for.
+The phantom piece is **192 GB HBM3 on a single chip**. NVIDIA H100 caps at 80 GB. By VRAM accounting, running Qwen3-Coder-Next at 256K context in FP8 requires weights (~80 GB) + KV cache (~38 GB) + activations (~25 GB) ≈ ~143 GB total — exceeding single-GPU H100 80 GB capacity, while comfortably fitting MI300X 192 GB. AMD's own [Day-0 ROCm support post](https://www.amd.com/en/developer/resources/technical-articles/2026/day-0-support-for-qwen3-coder-next-on-amd-instinct-gpus.html) confirms this is exactly the workload MI300X was built for. Empirical validation on real MI300X hardware is the Day 2-3 milestone.
 
 ## Architecture
 
@@ -147,18 +147,21 @@ repomind/
     └── ask_agent.py
 ```
 
-## Benchmark angle (the demo that wins)
+## Architecture rationale (by VRAM accounting; empirical measurements Day 2-3)
 
-Three side-by-side numbers, each a microphone drop:
+For Qwen3-Coder-Next-FP8 + 256K context window, the memory budget is:
+- Weights: ~80 GB
+- 256K KV cache @ FP8: ~38 GB
+- Activations: ~25 GB
+- **Total: ~143 GB**
 
 | Workload | NVIDIA H100 80GB (single-GPU) | AMD MI300X 192GB (single-GPU) |
 | --- | --- | --- |
-| Qwen3-Coder-Next-FP8 @ 64K context | works | works |
-| Qwen3-Coder-Next-FP8 @ 128K context | OOM (KV cache > 80GB) | works |
-| Qwen3-Coder-Next-FP8 @ 256K context | OOM | **works, ~50 tok/s** |
-| Linux kernel ingest (15M tokens → 256K window) | impossible single-card | demo target |
+| Qwen3-Coder-Next-FP8 @ 128K context | exceeds capacity by VRAM math | within headroom (target) |
+| Qwen3-Coder-Next-FP8 @ 256K context | exceeds capacity by VRAM math | within headroom (target) |
+| Linux kernel ingest (15M tokens → 256K window) | requires multi-GPU sharding | single-card design target |
 
-H100 needs sharding across 2–8 cards to match. MI300X does it on one. That's the entire pitch in one table.
+H100 single-card cannot accommodate this configuration by VRAM accounting; sharding across 2–8 cards would be required to match the per-card memory of MI300X. The architectural argument is mathematical; **empirical confirmation (throughput, latency, real-world stability at 256K) is the Day 2-3 milestone**.
 
 ## Roadmap (post-hackathon)
 
