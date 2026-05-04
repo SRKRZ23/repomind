@@ -68,7 +68,7 @@ git push -u origin main
    `open-source`, `mit-license`, `hackathon`
 3. **About** (gear-icon рядом с About справа): впиши описание
    `Open-source repo-scale coding agent on AMD MI300X (256K context, FP8)`
-   и website `https://lablab.ai/event/amd-developer-hackathon`
+   и website `https://lablab.ai/ai-hackathons/amd-developer`
 4. **Settings → Pages**: оставь disabled пока (включим если будет static demo)
 5. Включи **Discussions** (Settings → Features → Discussions ✓) — чтобы
    судьи могли задать вопрос публично, это очко в Originality / Presentation

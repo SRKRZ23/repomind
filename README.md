@@ -4,8 +4,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![ROCm 7](https://img.shields.io/badge/ROCm-7.0-red)](https://rocm.docs.amd.com/)
-[![vLLM](https://img.shields.io/badge/vLLM-Day0_Qwen3_Coder-blue)](https://www.amd.com/en/developer/resources/technical-articles/day-0-support-qwen3-coder-next-amd-instinct-gpus.html)
-[![AMD Hackathon](https://img.shields.io/badge/AMD_Developer_Hackathon-2026-orange)](https://lablab.ai/event/amd-developer-hackathon)
+[![vLLM](https://img.shields.io/badge/vLLM-Day0_Qwen3_Coder-blue)](https://www.amd.com/en/developer/resources/technical-articles/2026/day-0-support-for-qwen3-coder-next-on-amd-instinct-gpus.html)
+[![AMD Hackathon](https://img.shields.io/badge/AMD_Developer_Hackathon-2026-orange)](https://lablab.ai/ai-hackathons/amd-developer)
 
 ## What this is
 
@@ -21,7 +21,7 @@ REPOMIND is open-source MIT, runs on your own GPU, sees your whole codebase.
 
 ## Why MI300X
 
-The phantom piece is **192 GB HBM3 on a single chip**. NVIDIA H100 caps at 80 GB. To run Qwen3-Coder-Next at 256K context in FP8, you need ~150 GB of KV cache + weights — single-GPU H100 physically OOMs. AMD's own [Day-0 ROCm support post](https://www.amd.com/en/developer/resources/technical-articles/day-0-support-qwen3-coder-next-amd-instinct-gpus.html) confirms this is exactly the workload MI300X was built for.
+The phantom piece is **192 GB HBM3 on a single chip**. NVIDIA H100 caps at 80 GB. To run Qwen3-Coder-Next at 256K context in FP8, you need ~150 GB of KV cache + weights — single-GPU H100 physically OOMs. AMD's own [Day-0 ROCm support post](https://www.amd.com/en/developer/resources/technical-articles/2026/day-0-support-for-qwen3-coder-next-on-amd-instinct-gpus.html) confirms this is exactly the workload MI300X was built for.
 
 ## Architecture
 
@@ -177,4 +177,4 @@ MIT — see [LICENSE](LICENSE).
 - Author: [Epistemic Curie Benchmark](https://doi.org/10.5281/zenodo.19791329)
 - TriageGuardian: 99.62 % accuracy on 80 K ED records
 
-Built for the [AMD Developer Hackathon 2026](https://lablab.ai/event/amd-developer-hackathon).
+Built for the [AMD Developer Hackathon 2026](https://lablab.ai/ai-hackathons/amd-developer).

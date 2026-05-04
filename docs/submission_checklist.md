@@ -6,7 +6,7 @@
 - [ ] GitHub repo public at `github.com/SRKRZ23/repomind`, MIT license
 - [ ] HuggingFace Space at `huggingface.co/spaces/Sardor_R/repomind` runnable
 - [ ] Devpost / lablab.ai project page filled
-- [ ] Submission link on `lablab.ai/event/amd-developer-hackathon`
+- [ ] Submission link on `lablab.ai/ai-hackathons/amd-developer`
 
 ## Hackathon page form
 

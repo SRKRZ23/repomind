@@ -50,7 +50,7 @@ needing >80 GB at FP8 KV cache + weights only runs on AMD.
 ## Links
 
 - GitHub (MIT): https://github.com/SRKRZ23/repomind
-- AMD Hackathon page: https://lablab.ai/event/amd-developer-hackathon
+- AMD Hackathon page: https://lablab.ai/ai-hackathons/amd-developer
 - Author: https://lablab.ai/u/@Sardor_R
 
 ## License

@@ -13,7 +13,7 @@ Qwen3-Coder-Next-FP8 KV cache footprint:
 - Plus model weights (~80B params, FP8 ≈ 80 GB) → 118 GB minimum
 - H100 80GB physically can't hold both.
 
-Source: AMD's own [Day-0 Qwen3-Coder-Next post](https://www.amd.com/en/developer/resources/technical-articles/day-0-support-qwen3-coder-next-amd-instinct-gpus.html).
+Source: AMD's own [Day-0 Qwen3-Coder-Next post](https://www.amd.com/en/developer/resources/technical-articles/2026/day-0-support-for-qwen3-coder-next-on-amd-instinct-gpus.html).
 
 ## R2 — MI300X smoke test (when credits arrive)
 
