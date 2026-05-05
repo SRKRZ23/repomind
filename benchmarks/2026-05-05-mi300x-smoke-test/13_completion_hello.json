@@ -1,0 +1,36 @@
+{
+    "id": "chatcmpl-833d04b3db97a68d",
+    "object": "chat.completion",
+    "created": 1777984876,
+    "model": "Qwen/Qwen3-Coder-Next-FP8",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "Here's the classic \"Hello, World!\" program in Python:\n\n```python\nprint(\"Hello, World!\")\n```\n\nYou can run this by:\n1. Saving it in a file (e.g., `hello.py`)\n2. Running it with",
+                "refusal": null,
+                "annotations": null,
+                "audio": null,
+                "function_call": null,
+                "tool_calls": [],
+                "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "length",
+            "stop_reason": null,
+            "token_ids": null
+        }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+        "prompt_tokens": 14,
+        "total_tokens": 64,
+        "completion_tokens": 50,
+        "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+}

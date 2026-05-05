@@ -1,0 +1,69 @@
+[32m[I 2026-05-05 12:08:11.178 ServerApp](B[m jupyter_ai | extension was successfully linked.
+[32m[I 2026-05-05 12:08:11.178 ServerApp](B[m jupyter_lsp | extension was successfully linked.
+[32m[I 2026-05-05 12:08:11.180 ServerApp](B[m jupyter_server_terminals | extension was successfully linked.
+[32m[I 2026-05-05 12:08:11.182 ServerApp](B[m jupyterlab | extension was successfully linked.
+[32m[I 2026-05-05 12:08:11.184 ServerApp](B[m Writing Jupyter server cookie secret to /root/.local/share/jupyter/runtime/jupyter_cookie_secret
+[32m[I 2026-05-05 12:08:11.447 ServerApp](B[m notebook_shim | extension was successfully linked.
+[32m[I 2026-05-05 12:08:11.457 ServerApp](B[m notebook_shim | extension was successfully loaded.
+[32m[I 2026-05-05 12:08:11.457 AiExtension](B[m Configured provider allowlist: None
+[32m[I 2026-05-05 12:08:11.457 AiExtension](B[m Configured provider blocklist: None
+[32m[I 2026-05-05 12:08:11.457 AiExtension](B[m Configured model allowlist: None
+[32m[I 2026-05-05 12:08:11.457 AiExtension](B[m Configured model blocklist: None
+[32m[I 2026-05-05 12:08:11.457 AiExtension](B[m Configured model parameters: {}
+[32m[I 2026-05-05 12:08:11.465 AiExtension](B[m Registered model provider `ai21`.
+[33m[W 2026-05-05 12:08:11.469 AiExtension](B[m Unable to load model provider `amazon-bedrock`. Please install the `langchain_aws` package.
+[33m[W 2026-05-05 12:08:11.469 AiExtension](B[m Unable to load model provider `amazon-bedrock-chat`. Please install the `langchain_aws` package.
+[33m[W 2026-05-05 12:08:11.469 AiExtension](B[m Unable to load model provider `amazon-bedrock-custom`. Please install the `langchain_aws` package.
+[33m[W 2026-05-05 12:08:11.470 AiExtension](B[m Unable to load model provider `anthropic-chat`. Please install the `langchain_anthropic` package.
+[33m[W 2026-05-05 12:08:11.470 AiExtension](B[m Unable to load model provider `azure-chat-openai`. Please install the `langchain_openai` package.
+[33m[W 2026-05-05 12:08:11.470 AiExtension](B[m Unable to load model provider `cohere`. Please install the `langchain_cohere` package.
+[33m[W 2026-05-05 12:08:11.470 AiExtension](B[m Unable to load model provider `gemini`. Please install the `langchain_google_genai` package.
+[32m[I 2026-05-05 12:08:11.470 AiExtension](B[m Registered model provider `gpt4all`.
+[32m[I 2026-05-05 12:08:11.470 AiExtension](B[m Registered model provider `huggingface_hub`.
+[33m[W 2026-05-05 12:08:11.471 AiExtension](B[m Unable to load model provider `mistralai`. Please install the `langchain_mistralai` package.
+[33m[W 2026-05-05 12:08:11.471 AiExtension](B[m Unable to load model provider `nvidia-chat`. Please install the `langchain_nvidia_ai_endpoints` package.
+[33m[W 2026-05-05 12:08:11.471 AiExtension](B[m Unable to load model provider `ollama`. Please install the `langchain_ollama` package.
+[33m[W 2026-05-05 12:08:11.471 AiExtension](B[m Unable to load model provider `openai`. Please install the `langchain_openai` package.
+[33m[W 2026-05-05 12:08:11.471 AiExtension](B[m Unable to load model provider `openai-chat`. Please install the `langchain_openai` package.
+[33m[W 2026-05-05 12:08:11.471 AiExtension](B[m Unable to load model provider `openai-chat-custom`. Please install the `langchain_openai` package.
+[33m[W 2026-05-05 12:08:11.472 AiExtension](B[m Unable to load model provider `openrouter`. Please install the `langchain_openai` package.
+[32m[I 2026-05-05 12:08:11.472 AiExtension](B[m Registered model provider `qianfan`.
+[33m[W 2026-05-05 12:08:11.472 AiExtension](B[m Unable to load model provider `sagemaker-endpoint`. Please install the `langchain_aws` package.
+[32m[I 2026-05-05 12:08:11.472 AiExtension](B[m Registered model provider `togetherai`.
+[33m[W 2026-05-05 12:08:11.472 AiExtension](B[m Unable to load model provider `vertexai`. Please install the `langchain_google_vertexai` package.
+[33m[W 2026-05-05 12:08:11.480 AiExtension](B[m Unable to load embeddings model provider class from entry point `azure`: No module named 'langchain_openai'.
+[33m[W 2026-05-05 12:08:11.480 AiExtension](B[m Unable to load embeddings model provider class from entry point `bedrock`: No module named 'langchain_aws'.
+[33m[W 2026-05-05 12:08:11.480 AiExtension](B[m Unable to load embeddings model provider class from entry point `cohere`: No module named 'langchain_cohere'.
+[32m[I 2026-05-05 12:08:11.480 AiExtension](B[m Registered embeddings model provider `gpt4all`.
+[32m[I 2026-05-05 12:08:11.480 AiExtension](B[m Registered embeddings model provider `huggingface_hub`.
+[33m[W 2026-05-05 12:08:11.480 AiExtension](B[m Unable to load embeddings model provider class from entry point `mistralai`: No module named 'langchain_mistralai'.
+[33m[W 2026-05-05 12:08:11.481 AiExtension](B[m Unable to load embeddings model provider class from entry point `ollama`: No module named 'langchain_ollama'.
+[33m[W 2026-05-05 12:08:11.481 AiExtension](B[m Unable to load embeddings model provider class from entry point `openai`: No module named 'langchain_openai'.
+[33m[W 2026-05-05 12:08:11.481 AiExtension](B[m Unable to load embeddings model provider class from entry point `openai-custom`: No module named 'langchain_openai'.
+[32m[I 2026-05-05 12:08:11.481 AiExtension](B[m Registered embeddings model provider `qianfan`.
+[33m[W 2026-05-05 12:08:11.481 AiExtension](B[m Unable to load embeddings model provider class from entry point `vertexai`: No module named 'langchain_google_vertexai'.
+[32m[I 2026-05-05 12:08:11.485 AiExtension](B[m Registered providers.
+[32m[I 2026-05-05 12:08:11.485 AiExtension](B[m Registered jupyter_ai server extension
+[32m[I 2026-05-05 12:08:11.495 AiExtension](B[m Registered chat handler `ask` with command `/ask`.
+[32m[I 2026-05-05 12:08:11.495 AiExtension](B[m Registered chat handler `clear` with command `/clear`.
+[32m[I 2026-05-05 12:08:11.495 AiExtension](B[m Registered chat handler `default` with command `default`.
+[32m[I 2026-05-05 12:08:11.495 AiExtension](B[m Registered chat handler `export` with command `/export`.
+[32m[I 2026-05-05 12:08:11.495 AiExtension](B[m Registered chat handler `fix` with command `/fix`.
+[32m[I 2026-05-05 12:08:11.495 AiExtension](B[m Registered chat handler `generate` with command `/generate`.
+[32m[I 2026-05-05 12:08:11.496 AiExtension](B[m Registered chat handler `help` with command `/help`.
+[32m[I 2026-05-05 12:08:11.496 AiExtension](B[m Registered chat handler `learn` with command `/learn`.
+[32m[I 2026-05-05 12:08:11.504 AiExtension](B[m Registered context provider `file`.
+[32m[I 2026-05-05 12:08:11.504 AiExtension](B[m Initialized Jupyter AI server extension in 47 ms.
+[32m[I 2026-05-05 12:08:11.504 ServerApp](B[m jupyter_ai | extension was successfully loaded.
+[32m[I 2026-05-05 12:08:11.505 ServerApp](B[m jupyter_lsp | extension was successfully loaded.
+[32m[I 2026-05-05 12:08:11.506 ServerApp](B[m jupyter_server_terminals | extension was successfully loaded.
+[32m[I 2026-05-05 12:08:11.510 LabApp](B[m JupyterLab extension loaded from /usr/local/lib/python3.12/dist-packages/jupyterlab
+[32m[I 2026-05-05 12:08:11.510 LabApp](B[m JupyterLab application directory is /usr/local/share/jupyter/lab
+[32m[I 2026-05-05 12:08:11.510 LabApp](B[m Extension Manager is 'pypi'.
+[32m[I 2026-05-05 12:08:11.600 ServerApp](B[m jupyterlab | extension was successfully loaded.
+[32m[I 2026-05-05 12:08:11.600 ServerApp](B[m Serving notebooks from local directory: /shared-docker
+[32m[I 2026-05-05 12:08:11.601 ServerApp](B[m Jupyter Server 2.17.0 is running at:
+[32m[I 2026-05-05 12:08:11.601 ServerApp](B[m http://cfc87f6e8ad5:8888/lab?token=...
+[32m[I 2026-05-05 12:08:11.601 ServerApp](B[m     http://127.0.0.1:8888/lab?token=...
+[32m[I 2026-05-05 12:08:11.601 ServerApp](B[m Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[32m[I 2026-05-05 12:08:11.637 ServerApp](B[m Skipped non-installed server(s): basedpyright, bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyrefly, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server

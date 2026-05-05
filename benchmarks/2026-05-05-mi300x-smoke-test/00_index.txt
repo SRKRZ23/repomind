@@ -1,0 +1,24 @@
+total 84
+drwxr-xr-x 2 root root 4096 May  5 12:41 .
+drwx------ 6 root root 4096 May  5 12:41 ..
+-rw-r--r-- 1 root root    0 May  5 12:41 00_index.txt
+-rw-r--r-- 1 root root  118 May  5 12:41 01_system.txt
+-rw-r--r-- 1 root root  400 May  5 12:41 02_os.txt
+-rw-r--r-- 1 root root  505 May  5 12:41 03_disk.txt
+-rw-r--r-- 1 root root  207 May  5 12:41 04_memory.txt
+-rw-r--r-- 1 root root   32 May  5 12:41 05_timestamp_utc.txt
+-rw-r--r-- 1 root root  140 May  5 12:41 06_droplet_info.txt
+-rw-r--r-- 1 root root  995 May  5 12:41 07_rocm_smi.txt
+-rw-r--r-- 1 root root  463 May  5 12:41 08_vram_info.txt
+-rw-r--r-- 1 root root  707 May  5 12:41 09_gpu_product.txt
+-rw-r--r-- 1 root root  109 May  5 12:41 10_vllm_version.txt
+-rw-r--r-- 1 root root  946 May  5 12:41 11_v1_models.json
+-rw-r--r-- 1 root root 1854 May  5 12:41 12_completion_merge_sort.json
+-rw-r--r-- 1 root root 1145 May  5 12:41 13_completion_hello.json
+-rw-r--r-- 1 root root 2019 May  5 12:41 14_completion_lcs.json
+-rw-r--r-- 1 root root 8567 May  5 12:41 15_vllm_full_logs.txt
+-rw-r--r-- 1 root root    0 May  5 12:41 16_critical_metrics.txt
+-rw-r--r-- 1 root root  175 May  5 12:41 17_container_system.txt
+-rw-r--r-- 1 root root   63 May  5 12:41 18_gpu_snapshot_with_vllm.json
+Generated: Tue May  5 12:41:26 PM UTC 2026
+By: REPOMIND smoke test on AMD MI300X

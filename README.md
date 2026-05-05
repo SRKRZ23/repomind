@@ -56,22 +56,28 @@ The phantom piece is **192 GB HBM3 on a single chip**. NVIDIA H100 caps at 80 GB
 
 ## Status
 
+**Verified on real MI300X hardware (2026-05-05 smoke test):**
+
 - [x] Repo skeleton, LICENSE, .gitignore, requirements
 - [x] Ingestion pipeline scaffolding (no GPU)
 - [x] Tool layer (read_file / grep / execute / tests / git_log)
 - [x] SC-TIR agent loop (mock LLM client; runs unit tests offline)
-- [x] vLLM client stub (ready to wire when MI300X credits arrive)
 - [x] Gradio UI scaffold
-- [x] Benchmarks plan (H100 OOM reference)
-- [x] Unit tests passing without GPU
+- [x] Unit tests passing without GPU (27 tests)
 - [x] HuggingFace Space deploy (in `lablab-ai-amd-developer-hackathon` org)
 - [x] $100 AMD Cloud credits (received in 2 hours, not 2 business days)
-- [x] lablab.ai team + draft submission registered
-- [ ] MI300X spinup + vLLM smoke test (10K → 50K → 200K context)
+- [x] lablab.ai team + Step 1 of submission saved
+- [x] **MI300X x1 spinup + vLLM 0.17.1 (ROCm 7.2) Quick Start image — verified working**
+- [x] **Qwen/Qwen3-Coder-Next-FP8 served at `--max-model-len 262144` (256K) — verified, `Application startup complete`, `/v1/models` returns `max_model_len: 262144`**
+- [x] **Real Python code generation through `/v1/chat/completions` — verified (merge sort, LCS, Hello World)**
+
+**Pending:**
+
 - [ ] Repo ingestion smoke test on Linux kernel
 - [ ] LoRA fine-tune on code-specific subset (Track 2 bonus)
 - [ ] Demo video (3–5 min)
-- [ ] Submit on lablab.ai before 2026-05-11 00:00 Tashkent
+- [ ] Step 2 + Step 3 of lablab submission (cover image + video + slides)
+- [ ] Final submit on lablab.ai before 2026-05-11 00:00 Tashkent
 
 ## Quickstart (local, no GPU)
 
@@ -147,9 +153,34 @@ repomind/
     └── ask_agent.py
 ```
 
-## Architecture rationale (by VRAM accounting; empirical measurements Day 2-3)
+## Verified benchmarks — single AMD MI300X, vLLM 0.17.1 + ROCm 7.2
 
-For Qwen3-Coder-Next-FP8 + 256K context window, the memory budget is:
+Smoke test on AMD Developer Cloud (`MI300X x1`, $1.99 / GPU / hour, ATL1) on 2026-05-05.
+
+**Memory budget for Qwen/Qwen3-Coder-Next-FP8 + 256K context, FP8 KV cache:**
+
+| Component | Verified (rocm-smi + vLLM logs) |
+| --- | --- |
+| Model weights in VRAM | **77.29 GiB** |
+| Available KV cache memory | **95.26 GiB** |
+| GPU KV cache size | **2,080,752 tokens** |
+| VRAM peak (vLLM running) | **176.6 GiB / 191.7 GiB** (92% utilization) |
+| `--max-model-len 262144` | started, `Application startup complete` |
+| `/v1/models` `max_model_len` | **262144** (verified via API) |
+| **Maximum concurrency at 256K context** | **31.31× simultaneous full-256K-context users on a single MI300X** |
+| Generation throughput (warm, 8K config) | 30 tokens/s (vLLM Engine logs) |
+| Cold start (download + compile + warmup) | ~3 min 30 sec |
+| Warm restart (model cached, 256K config) | ~1 min 30 sec |
+
+H100 80 GB single-card cannot hold this configuration by VRAM accounting:
+weights (~77 GiB) + 256K KV cache (~38 GiB) + activations + framework
+overhead exceed 80 GiB. MI300X 192 GiB has the headroom and is empirically
+the only single-GPU answer for this class of workload today.
+
+Full evidence (rocm-smi, vLLM startup logs, JSON completion responses)
+is available in `benchmarks/2026-05-05-mi300x-smoke-test/`.
+
+For Qwen3-Coder-Next-FP8 + 256K context window, the memory budget breakdown was:
 - Weights: ~80 GB
 - 256K KV cache @ FP8: ~38 GB
 - Activations: ~25 GB

@@ -1,0 +1,2 @@
+WARNING 05-05 12:41:12 [gpt_oss_triton_kernels_moe.py:56] Using legacy triton_kernels on ROCm
+0.17.1+rocm700

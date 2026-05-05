@@ -1,0 +1,5 @@
+Public IP: 134.199.197.168
+Region: ATL1 (Atlanta)
+Plan: MI300X x1, 192GB HBM3
+Image: vLLM 0.17.1, ROCm 7.2.0 Quick Start
+Cost: .99/GPU/hour
