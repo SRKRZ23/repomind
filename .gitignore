@@ -44,3 +44,8 @@ logs/
 wandb/
 .benchmarks/
 .pytest_cache/
+
+
+# Local-only strategy / outreach / pitch docs — NEVER commit
+_private/
+*.private.md

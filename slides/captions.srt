@@ -1,0 +1,299 @@
+1
+00:00:00,000 --> 00:00:03,000
+Disclaimer: this video uses real screen recording
+
+2
+00:00:03,000 --> 00:00:05,000
+with click and typing sounds added in editing.
+
+3
+00:00:05,500 --> 00:00:09,000
+REPOMIND. Open-source repo-scale coding agent.
+
+4
+00:00:09,000 --> 00:00:12,000
+On a single AMD MI300X.
+
+5
+00:00:12,000 --> 00:00:15,000
+Built solo, in 6.5 days, for $4 of compute.
+
+6
+00:00:15,500 --> 00:00:19,000
+3 million developers locked out of AI coding tools.
+
+7
+00:00:19,000 --> 00:00:22,500
+JP Morgan banned ChatGPT in 2023.
+
+8
+00:00:22,500 --> 00:00:25,500
+Apple banned ChatGPT and Copilot.
+
+9
+00:00:25,500 --> 00:00:29,500
+DoD needs AI coding for tens of thousands of devs, on-prem only.
+
+10
+00:00:29,500 --> 00:00:32,500
+Cursor $9B. Anthropic $40B. OpenAI $500B. All blocked.
+
+11
+00:00:32,500 --> 00:00:35,000
+$30B/yr market nobody currently serves.
+
+12
+00:00:35,500 --> 00:00:39,500
+AMD's own February 2026 blog said the configuration exists.
+
+13
+00:00:39,500 --> 00:00:43,000
+256K context, single GPU, FP8 precision.
+
+14
+00:00:43,000 --> 00:00:47,000
+NVIDIA H100 (80 GB) cannot fit. AMD MI300X (192 GB) has the headroom.
+
+15
+00:00:47,000 --> 00:00:50,000
+We shipped the open-source proof.
+
+16
+00:00:50,500 --> 00:00:54,000
+Verified: 77 GB weights, 94 GB KV cache, 92% peak VRAM.
+
+17
+00:00:54,000 --> 00:00:58,000
+Cold start 3 min 30 sec. vLLM startup 42.2 sec.
+
+18
+00:00:58,000 --> 00:01:02,500
+62 verified data points across 124 minutes of stress testing.
+
+19
+00:01:02,500 --> 00:01:06,000
+Throughput across 6 contexts. TTFT linear, prefill-bound.
+
+20
+00:01:06,000 --> 00:01:10,000
+8K: 0.46 sec. 64K: 10 sec. 256K: 117.8 sec.
+
+21
+00:01:10,000 --> 00:01:13,000
+Honest physics. Honest numbers.
+
+22
+00:01:13,500 --> 00:01:17,000
+This is the number nobody else had.
+
+23
+00:01:17,000 --> 00:01:21,500
+An AMD engineer named Hakob asked publicly about 8K-32K concurrency.
+
+24
+00:01:21,500 --> 00:01:25,500
+We measured. 6.49× faster on 8K than 32K context.
+
+25
+00:01:25,500 --> 00:01:29,500
+31/31 users succeed at every realistic context.
+
+26
+00:01:29,500 --> 00:01:33,000
+144/144 outputs clean.
+
+27
+00:01:33,500 --> 00:01:37,500
+We tried AMD's own AITER attention backend.
+
+28
+00:01:37,500 --> 00:01:41,000
+Throughput went up 2-4×.
+
+29
+00:01:41,000 --> 00:01:45,500
+But output degraded to gibberish on 137/144 cells with FP8 KV cache.
+
+30
+00:01:45,500 --> 00:01:49,000
+Filed for AMD ROCm team upstream. Default Triton stays production-safe.
+
+31
+00:01:49,000 --> 00:01:53,000
+This is engineering honesty.
+
+32
+00:01:53,500 --> 00:01:57,500
+The 256K window is usable, not just allocated.
+
+33
+00:01:57,500 --> 00:02:01,500
+3 of 3 needle pass at 200,000 tokens.
+
+34
+00:02:01,500 --> 00:02:05,500
+Model recovers planted facts from the deep middle of the prompt.
+
+35
+00:02:05,500 --> 00:02:08,500
+Most claims are memory allocation. We proved attention.
+
+36
+00:02:08,500 --> 00:02:12,500
+9 of 9 repository questions answered correctly across 3 real repos.
+
+37
+00:02:12,500 --> 00:02:17,000
+Including pytorch/vision at 1.3 million tokens — 5× larger than the context window.
+
+38
+00:02:17,000 --> 00:02:20,500
+Priority chunker fits to 180K. Cursor sends fragments.
+
+39
+00:02:20,500 --> 00:02:23,500
+We construct the right window per question.
+
+40
+00:02:23,500 --> 00:02:27,000
+Let me show you live. Real MI300X. Real model. Real agent.
+
+41
+00:02:27,000 --> 00:02:30,500
+I paste pallets/flask. Click ingest.
+
+42
+00:02:30,500 --> 00:02:34,000
+Two seconds. 2,000 chunks. 400K tokens fitted to the window.
+
+43
+00:02:34,000 --> 00:02:37,500
+Switch to ask. Where is the WSGI request entry point?
+
+44
+00:02:37,500 --> 00:02:41,500
+Click ask. The agent reasons.
+
+45
+00:02:41,500 --> 00:02:45,500
+3 grep calls. 1 read_file with explicit line range.
+
+46
+00:02:45,500 --> 00:02:49,000
+5 tool calls in the first run, 4 in the second.
+
+47
+00:02:49,000 --> 00:02:54,000
+Both runs identify __call__ at line 1618, wsgi_app at 1566.
+
+48
+00:02:54,000 --> 00:02:58,500
+Real multi-step reasoning on real hardware.
+
+49
+00:02:58,500 --> 00:03:03,000
+Screenshot you see now is from the alternate run. Both verified.
+
+50
+00:03:03,500 --> 00:03:07,000
+Cursor: $40 per seat per month.
+
+51
+00:03:07,000 --> 00:03:10,000
+Claude: $100. Copilot: $19 to $39.
+
+52
+00:03:10,000 --> 00:03:13,500
+REPOMIND: zero per-seat licensing.
+
+53
+00:03:13,500 --> 00:03:18,000
+$18K MI300X capex breaks even vs Cursor in 3-6 months at 100 devs.
+
+54
+00:03:18,000 --> 00:03:21,500
+Code never leaves your VPC.
+
+55
+00:03:21,500 --> 00:03:26,000
+Mark Zuckerberg already signed $6 billion with AMD in February 2026.
+
+56
+00:03:26,000 --> 00:03:30,000
+REPOMIND is the open-source proof he was missing.
+
+57
+00:03:30,000 --> 00:03:34,500
+$58 million per year saved at 30,000 Meta developers.
+
+58
+00:03:34,500 --> 00:03:37,500
+$675 million per year productivity unlock at high end.
+
+59
+00:03:37,500 --> 00:03:41,000
+Each judge sees a different REPOMIND.
+
+60
+00:03:41,000 --> 00:03:44,500
+For AMD: the Lisa Su CES proof.
+
+61
+00:03:44,500 --> 00:03:48,000
+For Meta: the $6 billion deal validation.
+
+62
+00:03:48,000 --> 00:03:51,500
+For JP Morgan: the LLM Suite next layer.
+
+63
+00:03:51,500 --> 00:03:55,000
+For Apple iOS: the Copilot ban resolved.
+
+64
+00:03:55,000 --> 00:03:59,000
+For Netflix: idle GPU hours turned into developer productivity.
+
+65
+00:03:59,000 --> 00:04:02,500
+Be the one who flags this upstream first.
+
+66
+00:04:02,500 --> 00:04:06,500
+Wang sold Scale AI to Meta for $14.3 billion.
+
+67
+00:04:06,500 --> 00:04:10,000
+Suleyman to Microsoft for $650 million.
+
+68
+00:04:10,000 --> 00:04:13,500
+Shazeer to Google for $2.7 billion.
+
+69
+00:04:13,500 --> 00:04:18,000
+Solo founder + strategic AI infrastructure = multi-billion-dollar exits.
+
+70
+00:04:18,000 --> 00:04:21,000
+The pattern moves fast.
+
+71
+00:04:21,000 --> 00:04:24,500
+I am Sardor Razikov. From Tashkent.
+
+72
+00:04:24,500 --> 00:04:28,500
+Top 1.9% Kaggle SPR. Top 22% AIMO3 olympiad.
+
+73
+00:04:28,500 --> 00:04:32,500
+6.5 days to ship. AMD made the hardware.
+
+74
+00:04:32,500 --> 00:04:36,000
+We made the open-source unlock.
+
+75
+00:04:36,000 --> 00:04:40,000
+Thank you.

@@ -16,3 +16,6 @@ gradio>=4.40
 # Dev / test
 pytest>=8.0
 pytest-asyncio>=0.23
+
+# Benchmarks (only needed on droplet for plotting after the run)
+matplotlib>=3.7

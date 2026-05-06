@@ -1,0 +1,1772 @@
+{
+  "benchmark": "concurrency_matrix",
+  "model": "Qwen/Qwen3-Coder-Next-FP8",
+  "base_url": "http://localhost:8000/v1",
+  "max_completion_tokens": 64,
+  "cells": [
+    {
+      "target_context_tokens": 8192,
+      "concurrency": 1,
+      "wall_clock_seconds": 0.8187743920002504,
+      "successful": 1,
+      "failed": 0,
+      "errors": [],
+      "latency": {
+        "min": 0.806894290999935,
+        "p50": 0.806894290999935,
+        "p95": 0.806894290999935,
+        "max": 0.806894290999935
+      },
+      "tokens": {
+        "prompt_total": 8090,
+        "completion_total": 34,
+        "aggregate_completion_tps": 41.52548044026956
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 0.806894290999935,
+          "prompt_tokens": 8090,
+          "completion_tokens": 34,
+          "total_tokens": 8124,
+          "content": "The LCS function is named `longest_common_subsequence` and has time complexity O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        }
+      ]
+    },
+    {
+      "target_context_tokens": 8192,
+      "concurrency": 8,
+      "wall_clock_seconds": 3.5250912860001336,
+      "successful": 8,
+      "failed": 0,
+      "errors": [],
+      "latency": {
+        "min": 2.9657903080001233,
+        "p50": 3.395220313000209,
+        "p95": 3.412568667999949,
+        "max": 3.412568667999949
+      },
+      "tokens": {
+        "prompt_total": 64720,
+        "completion_total": 452,
+        "aggregate_completion_tps": 128.22362978091198
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 2.9706581539999206,
+          "prompt_tokens": 8090,
+          "completion_tokens": 34,
+          "total_tokens": 8124,
+          "content": "The LCS function is named `longest_common_subsequence` and has time complexity O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 2.9657903080001233,
+          "prompt_tokens": 8090,
+          "completion_tokens": 34,
+          "total_tokens": 8124,
+          "content": "The LCS function is named `longest_common_subsequence` and has time complexity O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 3.412568667999949,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 3.407014555999922,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 3.4012387200000376,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 3.395220313000209,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 3.3892665620001026,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 3.38162344400007,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        }
+      ]
+    },
+    {
+      "target_context_tokens": 8192,
+      "concurrency": 16,
+      "wall_clock_seconds": 6.143139764999887,
+      "successful": 16,
+      "failed": 0,
+      "errors": [],
+      "latency": {
+        "min": 5.248116620000019,
+        "p50": 5.875294932000088,
+        "p95": 5.903552618000049,
+        "max": 5.908125724999991
+      },
+      "tokens": {
+        "prompt_total": 129440,
+        "completion_total": 888,
+        "aggregate_completion_tps": 144.55148897300342
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 5.4299858479998875,
+          "prompt_tokens": 8090,
+          "completion_tokens": 34,
+          "total_tokens": 8124,
+          "content": "The LCS function is named `longest_common_subsequence` and has time complexity O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 5.42718196099986,
+          "prompt_tokens": 8090,
+          "completion_tokens": 34,
+          "total_tokens": 8124,
+          "content": "The LCS function is named `longest_common_subsequence` and has time complexity O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 5.255673856000158,
+          "prompt_tokens": 8090,
+          "completion_tokens": 26,
+          "total_tokens": 8116,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of **O(n * m)**.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 5.248116620000019,
+          "prompt_tokens": 8090,
+          "completion_tokens": 26,
+          "total_tokens": 8116,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of **O(n * m)**.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 5.908125724999991,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 5.903552618000049,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 5.899562517000049,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 5.895244703000117,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 5.890083098000105,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 5.885162975000185,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 5.880193814999984,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 5.875294932000088,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 5.869329042999652,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 5.863566394999907,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 5.851559217000158,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 5.838364310000088,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        }
+      ]
+    },
+    {
+      "target_context_tokens": 8192,
+      "concurrency": 31,
+      "wall_clock_seconds": 11.077274251999825,
+      "successful": 31,
+      "failed": 0,
+      "errors": [],
+      "latency": {
+        "min": 9.872102963000088,
+        "p50": 10.528662087000157,
+        "p95": 10.579449916000158,
+        "max": 10.584225686000082
+      },
+      "tokens": {
+        "prompt_total": 250790,
+        "completion_total": 1865,
+        "aggregate_completion_tps": 168.36271790086843
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 10.040154138999696,
+          "prompt_tokens": 8090,
+          "completion_tokens": 34,
+          "total_tokens": 8124,
+          "content": "The LCS function is named `longest_common_subsequence` and has time complexity O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.039278902000206,
+          "prompt_tokens": 8090,
+          "completion_tokens": 34,
+          "total_tokens": 8124,
+          "content": "The LCS function is named `longest_common_subsequence` and has time complexity O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 9.872102963000088,
+          "prompt_tokens": 8090,
+          "completion_tokens": 26,
+          "total_tokens": 8116,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of **O(n * m)**.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.177953533000164,
+          "prompt_tokens": 8090,
+          "completion_tokens": 43,
+          "total_tokens": 8133,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of **O(n \u00d7 m)**, where *n* and *m* are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.584225686000082,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.58253920900006,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.579449916000158,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.576436641000328,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.573400158999902,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.57048094799984,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.56765765199998,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.564565735000087,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.561685533999935,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.5584373089996,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.55499607899992,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.551215818999935,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.543787803999749,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.536134907999894,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.532206724999924,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.528662087000157,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.52458514,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.520590328000253,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.51627746999975,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.511347433000083,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.506567623999672,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.501415159000317,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.49633798900004,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.490908410999964,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.485386573000142,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.479011342999911,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.471795984999972,
+          "prompt_tokens": 8090,
+          "completion_tokens": 64,
+          "total_tokens": 8154,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        }
+      ]
+    },
+    {
+      "target_context_tokens": 16384,
+      "concurrency": 1,
+      "wall_clock_seconds": 1.558009075999962,
+      "successful": 1,
+      "failed": 0,
+      "errors": [],
+      "latency": {
+        "min": 1.557496658999753,
+        "p50": 1.557496658999753,
+        "p95": 1.557496658999753,
+        "max": 1.557496658999753
+      },
+      "tokens": {
+        "prompt_total": 16087,
+        "completion_total": 64,
+        "aggregate_completion_tps": 41.07806622302472
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 1.557496658999753,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        }
+      ]
+    },
+    {
+      "target_context_tokens": 16384,
+      "concurrency": 8,
+      "wall_clock_seconds": 6.2040881400002945,
+      "successful": 8,
+      "failed": 0,
+      "errors": [],
+      "latency": {
+        "min": 5.623157221999918,
+        "p50": 6.02051630599999,
+        "p95": 6.0609386139999515,
+        "max": 6.0609386139999515
+      },
+      "tokens": {
+        "prompt_total": 128696,
+        "completion_total": 460,
+        "aggregate_completion_tps": 74.14465907313466
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 5.663397385999815,
+          "prompt_tokens": 16087,
+          "completion_tokens": 40,
+          "total_tokens": 16127,
+          "content": "The function is named `longest_common_subsequence`, and its time complexity is **O(n\u00b7m)** where *n* and *m* are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 5.623157221999918,
+          "prompt_tokens": 16087,
+          "completion_tokens": 36,
+          "total_tokens": 16123,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 6.000773311999637,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 6.011160568999912,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 6.02051630599999,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 6.037737605000075,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 6.054181425000024,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 6.0609386139999515,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        }
+      ]
+    },
+    {
+      "target_context_tokens": 16384,
+      "concurrency": 16,
+      "wall_clock_seconds": 11.39625192199992,
+      "successful": 16,
+      "failed": 0,
+      "errors": [],
+      "latency": {
+        "min": 10.925697886999842,
+        "p50": 11.025949167999897,
+        "p95": 11.084782773999905,
+        "max": 11.091587488000187
+      },
+      "tokens": {
+        "prompt_total": 257392,
+        "completion_total": 1024,
+        "aggregate_completion_tps": 89.85410352531932
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 10.925697886999842,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.93838882099999,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.951945948999764,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.964372356999775,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.977940301000217,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 10.99024282900018,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 11.003339640999911,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 11.015151353999954,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 11.025949167999897,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 11.036850021999726,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 11.047390664999966,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 11.05814873700001,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 11.067754913000044,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 11.076194165999823,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 11.084782773999905,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 11.091587488000187,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        }
+      ]
+    },
+    {
+      "target_context_tokens": 16384,
+      "concurrency": 31,
+      "wall_clock_seconds": 21.344177929000125,
+      "successful": 31,
+      "failed": 0,
+      "errors": [],
+      "latency": {
+        "min": 9.659740376000173,
+        "p50": 20.575549895999757,
+        "p95": 20.729159530000288,
+        "max": 20.745883177999985
+      },
+      "tokens": {
+        "prompt_total": 498697,
+        "completion_total": 1922,
+        "aggregate_completion_tps": 90.04797497441199
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 9.659740376000173,
+          "prompt_tokens": 16087,
+          "completion_tokens": 24,
+          "total_tokens": 16111,
+          "content": "The LCS function is named `longest_common_subsequence` and has time complexity **O(n\u00b7m)**.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.342735864000133,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.360796218999894,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.39683641900001,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.414051829999607,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.4319575909999,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.44938247800019,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.46544465800025,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.481955208000272,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.49790762099974,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.51339724499985,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.52914311199993,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.544464637000146,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.560213259999728,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.575549895999757,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.587676568000006,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.60261026099988,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.617400827999973,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.396150746999865,
+          "prompt_tokens": 16087,
+          "completion_tokens": 42,
+          "total_tokens": 16129,
+          "content": "The LCS function is named `longest_common_subsequence`, and its time complexity is **O(n \u00d7 m)**, where *n* and *m* are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.63014512000018,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.642863985000076,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.65540314100008,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.66834125200012,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.679171294999833,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.68991549600014,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.700444951999998,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.710891211000217,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.720089749999715,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.729159530000288,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.745883177999985,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 20.738294286999917,
+          "prompt_tokens": 16087,
+          "completion_tokens": 64,
+          "total_tokens": 16151,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        }
+      ]
+    },
+    {
+      "target_context_tokens": 65536,
+      "concurrency": 1,
+      "wall_clock_seconds": 4.410963590000392,
+      "successful": 1,
+      "failed": 0,
+      "errors": [],
+      "latency": {
+        "min": 4.409671342000365,
+        "p50": 4.409671342000365,
+        "p95": 4.409671342000365,
+        "max": 4.409671342000365
+      },
+      "tokens": {
+        "prompt_total": 65523,
+        "completion_total": 64,
+        "aggregate_completion_tps": 14.509301356530651
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 4.409671342000365,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        }
+      ]
+    },
+    {
+      "target_context_tokens": 65536,
+      "concurrency": 8,
+      "wall_clock_seconds": 33.14732355899969,
+      "successful": 8,
+      "failed": 0,
+      "errors": [],
+      "latency": {
+        "min": 32.25651247099995,
+        "p50": 32.71065607100036,
+        "p95": 33.00135219799995,
+        "max": 33.00135219799995
+      },
+      "tokens": {
+        "prompt_total": 524184,
+        "completion_total": 512,
+        "aggregate_completion_tps": 15.44619429344512
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 32.25651247099995,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 32.36890521600026,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 32.48147865300007,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 32.594271044999914,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 32.71065607100036,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 32.81254638599967,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 32.909781094999744,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 33.00135219799995,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        }
+      ]
+    },
+    {
+      "target_context_tokens": 65536,
+      "concurrency": 16,
+      "wall_clock_seconds": 55.483264873999815,
+      "successful": 16,
+      "failed": 0,
+      "errors": [],
+      "latency": {
+        "min": 30.277814920999845,
+        "p50": 54.446881075999954,
+        "p95": 55.084870822000084,
+        "max": 55.177875616000165
+      },
+      "tokens": {
+        "prompt_total": 1048368,
+        "completion_total": 1024,
+        "aggregate_completion_tps": 18.456015562989332
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 30.277814920999845,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 33.6357801690001,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 37.00267179799994,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 40.38730339799986,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 44.26430739899979,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 47.61621756700015,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 50.99977871100009,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 54.34451064699988,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 54.446881075999954,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 54.56044373499981,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 54.67290999700026,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 54.78257438499986,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 54.88560130799988,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 54.988768610999614,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 55.084870822000084,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 55.177875616000165,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        }
+      ]
+    },
+    {
+      "target_context_tokens": 65536,
+      "concurrency": 31,
+      "wall_clock_seconds": 107.46949486499989,
+      "successful": 31,
+      "failed": 0,
+      "errors": [],
+      "latency": {
+        "min": 30.28871938400016,
+        "p50": 81.18097658599982,
+        "p95": 106.67245080099974,
+        "max": 106.86081267400004
+      },
+      "tokens": {
+        "prompt_total": 2031213,
+        "completion_total": 1984,
+        "aggregate_completion_tps": 18.461052622348735
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 30.28871938400016,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 33.64761238400024,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 37.01592717199992,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 40.4293438980003,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 44.32744165200029,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 47.67571623599997,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 51.0258652309999,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 54.38327641800015,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 57.739156273999924,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 61.10081459000003,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 64.45393161499987,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 67.79941136599973,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 71.16129651099982,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 74.49244189799992,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 77.83805114199959,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 81.18097658599982,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 84.52274016399997,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 87.87575564100007,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 91.1993524999998,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 94.6059283020004,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 98.06594562600003,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 101.52838409500009,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 106.02643719099979,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 106.12976317099992,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 106.2461286040002,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 106.35658855400015,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 106.46732378499973,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 106.56990011800008,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 106.67245080099974,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 106.76822862000017,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 106.86081267400004,
+          "prompt_tokens": 65523,
+          "completion_tokens": 64,
+          "total_tokens": 65587,
+          "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+          "error": null
+        }
+      ]
+    }
+  ]
+}

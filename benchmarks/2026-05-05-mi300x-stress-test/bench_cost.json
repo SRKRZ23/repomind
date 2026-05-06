@@ -1,0 +1,141 @@
+{
+  "benchmark": "cost_economics",
+  "hourly_usd_per_mi300x": 1.99,
+  "assumed_average_query": {
+    "context_tokens": 30000,
+    "completion_tokens": 500
+  },
+  "cursor_teams_monthly_usd_per_dev": 40.0,
+  "cursor_teams_yearly_usd_per_dev": 480.0,
+  "throughput_curve": [
+    {
+      "context_tokens": 8192,
+      "single_user_tps": 0.6957611432759389,
+      "usd_per_1m_completion_tokens": 794.4936033292479
+    },
+    {
+      "context_tokens": 32768,
+      "single_user_tps": 9.438989678819908,
+      "usd_per_1m_completion_tokens": 58.56323574737585
+    },
+    {
+      "context_tokens": 65536,
+      "single_user_tps": 3.529762623110629,
+      "usd_per_1m_completion_tokens": 156.60480230555513
+    },
+    {
+      "context_tokens": 131072,
+      "single_user_tps": 1.0523194606568718,
+      "usd_per_1m_completion_tokens": 525.2946452522378
+    },
+    {
+      "context_tokens": 258048,
+      "single_user_tps": 0.3094603966881766,
+      "usd_per_1m_completion_tokens": 1786.2633916765008
+    }
+  ],
+  "concurrency_curve": [
+    {
+      "context_tokens": 32768,
+      "concurrency": 1,
+      "successful": 1,
+      "aggregate_tps": 9.945225279441622,
+      "usd_per_1m_completion_tokens_aggregate": 55.58222787777952
+    },
+    {
+      "context_tokens": 32768,
+      "concurrency": 8,
+      "successful": 8,
+      "aggregate_tps": 11.84973383620636,
+      "usd_per_1m_completion_tokens_aggregate": 46.648961522560846
+    },
+    {
+      "context_tokens": 32768,
+      "concurrency": 16,
+      "successful": 16,
+      "aggregate_tps": 11.870550486352741,
+      "usd_per_1m_completion_tokens_aggregate": 46.567156124165585
+    },
+    {
+      "context_tokens": 32768,
+      "concurrency": 31,
+      "successful": 31,
+      "aggregate_tps": 12.081442572171005,
+      "usd_per_1m_completion_tokens_aggregate": 45.75428592038119
+    },
+    {
+      "context_tokens": 131072,
+      "concurrency": 1,
+      "successful": 1,
+      "aggregate_tps": 1.0712056442884699,
+      "usd_per_1m_completion_tokens_aggregate": 516.0332945640433
+    },
+    {
+      "context_tokens": 131072,
+      "concurrency": 8,
+      "successful": 8,
+      "aggregate_tps": 1.0975826397297281,
+      "usd_per_1m_completion_tokens_aggregate": 503.63203440781035
+    },
+    {
+      "context_tokens": 131072,
+      "concurrency": 16,
+      "successful": 16,
+      "aggregate_tps": 1.0999099642958952,
+      "usd_per_1m_completion_tokens_aggregate": 502.566387905793
+    },
+    {
+      "context_tokens": 131072,
+      "concurrency": 31,
+      "successful": 25,
+      "aggregate_tps": 1.0137109804772946,
+      "usd_per_1m_completion_tokens_aggregate": 545.3011641617105
+    },
+    {
+      "context_tokens": 258048,
+      "concurrency": 1,
+      "successful": 1,
+      "aggregate_tps": 0.3084134493630617,
+      "usd_per_1m_completion_tokens_aggregate": 1792.3270821015738
+    },
+    {
+      "context_tokens": 258048,
+      "concurrency": 8,
+      "successful": 6,
+      "aggregate_tps": 0.24438273990078116,
+      "usd_per_1m_completion_tokens_aggregate": 2261.934611266754
+    },
+    {
+      "context_tokens": 258048,
+      "concurrency": 16,
+      "successful": 6,
+      "aggregate_tps": 0.24433335779791251,
+      "usd_per_1m_completion_tokens_aggregate": 2262.3917698334867
+    },
+    {
+      "context_tokens": 258048,
+      "concurrency": 31,
+      "successful": 6,
+      "aggregate_tps": 0.24425126844665845,
+      "usd_per_1m_completion_tokens_aggregate": 2263.152127287715
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "best_observed_aggregate_throughput",
+      "best_cell": {
+        "context_tokens": 32768,
+        "concurrency": 31,
+        "successful": 31,
+        "aggregate_tps": 12.081442572171005,
+        "usd_per_1m_completion_tokens_aggregate": 45.75428592038119
+      },
+      "queries_per_active_dev_per_hour": 6,
+      "max_devs_per_mi300x": 14.497731086605206,
+      "cursor_equivalent_yearly_usd_for_those_devs": 6958.910921570498,
+      "mi300x_cloud_yearly_usd": 17432.399999999998,
+      "annual_savings_usd": -10473.489078429498,
+      "break_even_owned_mi300x_months": 225.2555426589954
+    }
+  ]
+}

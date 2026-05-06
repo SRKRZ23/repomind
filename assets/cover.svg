@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+REPOMIND cover — 1200×630 (Twitter/LinkedIn/GitHub social card).
+Light theme. White / Black / Red. Maximum readability.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <style>
+      .brand   { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 900; }
+      .body    { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      .mono    { font-family: 'Menlo', 'Monaco', 'Courier New', monospace; }
+    </style>
+  </defs>
+
+  <!-- White canvas -->
+  <rect width="1200" height="630" fill="#FFFFFF"/>
+
+  <!-- Red accent stripe (left edge) -->
+  <rect x="0" y="0" width="14" height="630" fill="#ED1C24"/>
+
+  <!-- Top eyebrow -->
+  <text x="60" y="68" class="body" font-weight="700" font-size="18" letter-spacing="3" fill="#ED1C24">AMD DEVELOPER HACKATHON  ·  MAY 11, 2026</text>
+
+  <!-- Brand wordmark -->
+  <text x="60" y="180" class="brand" font-size="120" fill="#000000" letter-spacing="-3">REPOMIND</text>
+
+  <!-- Tagline -->
+  <text x="60" y="228" class="body" font-weight="400" font-size="26" fill="#000000">Open-source repo-scale coding agent on a single AMD MI300X.</text>
+
+  <!-- Memory bar header -->
+  <text x="60" y="290" class="body" font-weight="700" font-size="13" letter-spacing="2" fill="#666666">MEMORY NEEDED — Qwen3-Coder-Next-FP8 + 256K + FP8 KV cache ≈ 143 GiB</text>
+
+  <!-- Bar 1: MI300X (red) -->
+  <text x="60" y="328" class="body" font-weight="700" font-size="20" fill="#000000">AMD MI300X</text>
+  <rect x="60" y="340" width="780" height="40" fill="#ED1C24"/>
+  <text x="855" y="370" class="brand" font-size="24" fill="#000000">192 GB</text>
+
+  <!-- Bar 2: H100 (black, shorter) -->
+  <text x="60" y="412" class="body" font-weight="700" font-size="20" fill="#000000">NVIDIA H100</text>
+  <rect x="60" y="424" width="325" height="40" fill="#000000"/>
+  <text x="400" y="454" class="brand" font-size="24" fill="#000000">80 GB</text>
+  <text x="495" y="454" class="body" font-weight="800" font-size="20" fill="#ED1C24">cannot fit by VRAM math</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="500" x2="1140" y2="500" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Verified row label -->
+  <text x="60" y="528" class="body" font-weight="700" font-size="13" letter-spacing="2" fill="#666666">EMPIRICALLY VERIFIED — 124 MIN STRESS TEST · $4.12 · INCLUDES AITER A/B</text>
+
+  <!-- 4-stat row -->
+  <g transform="translate(60, 545)">
+    <text x="0" y="22" class="brand" font-size="32" fill="#ED1C24">31/31</text>
+    <text x="0" y="44" class="body" font-weight="600" font-size="13" fill="#000000">users at 8K, 16K, 32K, 64K</text>
+  </g>
+
+  <g transform="translate(330, 545)">
+    <text x="0" y="22" class="brand" font-size="32" fill="#ED1C24">3/3</text>
+    <text x="0" y="44" class="body" font-weight="600" font-size="13" fill="#000000">needle pass at 200K</text>
+  </g>
+
+  <g transform="translate(580, 545)">
+    <text x="0" y="22" class="brand" font-size="32" fill="#ED1C24">9/9</text>
+    <text x="0" y="44" class="body" font-weight="600" font-size="13" fill="#000000">repo Q&amp;A correct (1.3M-token pytorch/vision)</text>
+  </g>
+
+  <g transform="translate(960, 545)">
+    <text x="0" y="22" class="brand" font-size="32" fill="#ED1C24">144/144</text>
+    <text x="0" y="44" class="body" font-weight="600" font-size="13" fill="#000000">default Triton outputs clean</text>
+  </g>
+
+  <!-- Footer links -->
+  <text x="60" y="608" class="mono" font-weight="700" font-size="13" fill="#000000">github.com/SRKRZ23/repomind  ·  by Sardor Razikov  ·  MIT  ·  vLLM 0.17.1 + ROCm 7.2  ·  🇺🇿 Tashkent</text>
+</svg>

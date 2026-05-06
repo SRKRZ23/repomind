@@ -1,0 +1,8 @@
+Q: Name three transforms that touch the alpha channel.
+
+A:
+Based on the provided code, three transforms that can touch the alpha channel are:
+
+1.  **`RandomErasing`**: This transform can erase regions from images, and its `forward` method explicitly handles masks, which can be related to alpha channels.
+2.  **`RandomOcclusion`**: This transform adds occlusions, which can affect the alpha channel by masking out parts of the image.
+3.  **`ToGPU`**: This transform moves tensors to the GPU, and if the input images have an alpha channel, it will be included in the tensor transfer.

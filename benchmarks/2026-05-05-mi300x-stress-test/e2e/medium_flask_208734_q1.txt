@@ -1,0 +1,4 @@
+Q: Where is the WSGI request entry point in this codebase?
+
+A:
+The WSGI request entry point is the `wsgi_app` method of the `Flask` class, defined in `src/flask/app.py`. This method is called by the WSGI server when a request arrives and handles the full request lifecycle, including context management, routing, and response generation. The `__call__` method of the `Flask` class delegates to `wsgi_app`, making the Flask instance itself a WSGI application.

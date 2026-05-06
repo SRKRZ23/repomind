@@ -1,0 +1,10 @@
+Q: Name three tools in the agent's tool layer.
+
+A:
+Based on the repository structure, three tools in the agent's tool layer are:
+
+1.  `read_file` - for reading files from the ingested repository.
+2.  `grep_codebase` - for searching the codebase with regular expressions.
+3.  `execute_code` - for running Python code in a sandboxed environment.
+
+These are part of a larger registry that also includes `run_tests` and `git_log`, as defined in `tools/registry.py`.

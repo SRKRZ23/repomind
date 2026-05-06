@@ -1,0 +1,4 @@
+Q: Which file defines the ResNet bottleneck block?
+
+A:
+Based on the repository contents, the ResNet bottleneck block is defined in `torchvision/models/resnet.py`. This file contains the `Bottleneck` class which implements the bottleneck architecture used in ResNet models like `resnet50`, `resnet101`, and `resnet152`. The implementation follows the ResNet V1.5 variant where the stride for downsampling is placed in the second 3x3 convolution.

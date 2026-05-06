@@ -1,0 +1,4 @@
+Q: How does Flask handle URL routing — name the central object and its method.
+
+A:
+Flask uses the **Werkzeug routing system** to handle URL routing. The central object is the **`url_map`** attribute of the `Flask` class, which stores all registered URL rules. Routes are registered using the **`route()`** decorator (or equivalently, `add_url_rule()` method), which adds `Rule` objects to the `url_map`.

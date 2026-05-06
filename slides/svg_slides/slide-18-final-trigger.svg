@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Slide 18 — Pattern table. Comparable acqui-hire deals presented as facts.
+     No "[OPEN]" status, no manipulative footer. Reader connects the pattern themselves. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <style>
+      .brand { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+      .body  { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; }
+      .mono  { font-family: "SF Mono", Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect width="1920" height="1080" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="22" height="1080" fill="#ED1C24"/>
+
+  <!-- top: logo + AMD -->
+  <g transform="translate(100, 50)">
+    <rect width="100" height="100" fill="#000000" rx="16"/>
+    <line x1="50" y1="34" x2="27" y2="69" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <line x1="50" y1="34" x2="50" y2="69" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <line x1="50" y1="34" x2="73" y2="69" stroke="#ED1C24" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="50" cy="34" r="9"  fill="#FFFFFF"/>
+    <circle cx="27" cy="69" r="6"  fill="#FFFFFF"/>
+    <circle cx="50" cy="69" r="6"  fill="#FFFFFF"/>
+    <circle cx="73" cy="69" r="7"  fill="#ED1C24"/>
+  </g>
+  <image href="data:image/png;base64,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" x="1660" y="60" width="160" height="60" preserveAspectRatio="xMaxYMid meet"/>
+
+  <!-- header -->
+  <text x="240" y="100" class="body" font-weight="700" font-size="22" letter-spacing="6" fill="#ED1C24">THE PATTERN  ·  RECENT COMPARABLE DEALS  ·  PUBLIC RECORD</text>
+  <text x="240" y="148" class="brand" font-size="48" fill="#000000" letter-spacing="-2">Solo founder + strategic AI infrastructure → multi-billion-dollar exits.</text>
+
+  <!-- Table -->
+  <g transform="translate(100, 240)">
+    <text x="0" y="0" class="body" font-weight="700" font-size="20" letter-spacing="3" fill="#666666">FOUNDER</text>
+    <text x="450" y="0" class="body" font-weight="700" font-size="20" letter-spacing="3" fill="#666666">COMPANY → ACQUIRER</text>
+    <text x="1050" y="0" class="body" font-weight="700" font-size="20" letter-spacing="3" fill="#666666">DEAL VALUE</text>
+    <text x="1380" y="0" class="body" font-weight="700" font-size="20" letter-spacing="3" fill="#666666">YEAR  ·  ROLE</text>
+    <line x1="0" y1="20" x2="1720" y2="20" stroke="#000000" stroke-width="2"/>
+
+    <text x="0"    y="80" class="brand" font-size="28" fill="#000000">Alexander Wang</text>
+    <text x="450"  y="80" class="body" font-weight="600" font-size="22" fill="#000000">Scale AI → Meta</text>
+    <text x="1050" y="80" class="brand" font-size="32" fill="#ED1C24">$14.3B</text>
+    <text x="1380" y="80" class="body" font-weight="600" font-size="22" fill="#000000">2024  ·  Chief AI Officer at Meta</text>
+    <line x1="0" y1="105" x2="1720" y2="105" stroke="#E5E5E5" stroke-width="1"/>
+
+    <text x="0"    y="160" class="brand" font-size="28" fill="#000000">Mira Murati</text>
+    <text x="450"  y="160" class="body" font-weight="600" font-size="22" fill="#000000">Thinking Machines (pre-product)</text>
+    <text x="1050" y="160" class="brand" font-size="32" fill="#ED1C24">$2B raised @ $12B</text>
+    <text x="1380" y="160" class="body" font-weight="600" font-size="22" fill="#000000">2025  ·  Founder &amp; CEO</text>
+    <line x1="0" y1="185" x2="1720" y2="185" stroke="#E5E5E5" stroke-width="1"/>
+
+    <text x="0"    y="240" class="brand" font-size="28" fill="#000000">Mustafa Suleyman</text>
+    <text x="450"  y="240" class="body" font-weight="600" font-size="22" fill="#000000">Inflection → Microsoft</text>
+    <text x="1050" y="240" class="brand" font-size="32" fill="#ED1C24">$650M</text>
+    <text x="1380" y="240" class="body" font-weight="600" font-size="22" fill="#000000">2024  ·  Microsoft AI CEO</text>
+    <line x1="0" y1="265" x2="1720" y2="265" stroke="#E5E5E5" stroke-width="1"/>
+
+    <text x="0"    y="320" class="brand" font-size="28" fill="#000000">Noam Shazeer</text>
+    <text x="450"  y="320" class="body" font-weight="600" font-size="22" fill="#000000">Character.AI → Google</text>
+    <text x="1050" y="320" class="brand" font-size="32" fill="#ED1C24">$2.7B</text>
+    <text x="1380" y="320" class="body" font-weight="600" font-size="22" fill="#000000">2024  ·  DeepMind</text>
+    <line x1="0" y1="345" x2="1720" y2="345" stroke="#E5E5E5" stroke-width="1"/>
+
+    <text x="0"    y="400" class="brand" font-size="28" fill="#000000">David Luan</text>
+    <text x="450"  y="400" class="body" font-weight="600" font-size="22" fill="#000000">Adept → Amazon</text>
+    <text x="1050" y="400" class="brand" font-size="32" fill="#ED1C24">$400M+</text>
+    <text x="1380" y="400" class="body" font-weight="600" font-size="22" fill="#000000">2024  ·  AGI lead</text>
+    <line x1="0" y1="425" x2="1720" y2="425" stroke="#000000" stroke-width="2"/>
+  </g>
+
+  <!-- Track record block -->
+  <g transform="translate(100, 730)">
+    <text x="0" y="0" class="body" font-weight="700" font-size="22" letter-spacing="3" fill="#666666">SARDOR RAZIKOV — VERIFIABLE TRACK RECORD</text>
+    <line x1="0" y1="20" x2="1720" y2="20" stroke="#000000" stroke-width="2"/>
+    <text x="0" y="70" class="body" font-weight="600" font-size="22" fill="#000000">Top 1.9% Kaggle SPR Mammography (#7/371)  ·  Top 22% AIMO3 olympiad (XTX $2.2M prize)</text>
+    <text x="0" y="105" class="body" font-weight="600" font-size="22" fill="#000000">Zenodo author (ECB benchmark)  ·  TriageGuardian 99.62% F1  ·  REPOMIND in 6.5 days for $4.12 of compute</text>
+  </g>
+
+  <!-- footer block — open availability + full contacts -->
+  <g transform="translate(100, 940)">
+    <rect x="0" y="0" width="1720" height="100" fill="#000000"/>
+    <rect x="0" y="0" width="6" height="100" fill="#ED1C24"/>
+    <text x="40" y="35" class="body" font-weight="700" font-size="20" letter-spacing="2" fill="#FFFFFF">SARDOR RAZIKOV  —  open to acquisition, founding-team, and strategic-partnership conversations.</text>
+    <text x="40" y="65" class="mono" font-weight="600" font-size="15" fill="#ED1C24">razikovsardor1@gmail.com  ·  razikovs777@gmail.com  ·  linkedin.com/in/sardor-razikov-569a5327b</text>
+    <text x="40" y="88" class="mono" font-weight="600" font-size="15" fill="#FFFFFF">@SardorRazi99093  ·  github.com/SRKRZ23/repomind  ·  Tashkent</text>
+  </g>
+</svg>

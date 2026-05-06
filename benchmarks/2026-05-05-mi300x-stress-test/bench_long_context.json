@@ -1,0 +1,63 @@
+{
+  "benchmark": "long_context_needle",
+  "model": "Qwen/Qwen3-Coder-Next-FP8",
+  "base_url": "http://localhost:8000/v1",
+  "sentinel_function_name": "calc_repomind_token_budget_v7",
+  "sentinel_fact": "the magic constant is 4242",
+  "runs": [
+    {
+      "position": "early",
+      "target_tokens": 200000,
+      "result": {
+        "ok": true,
+        "elapsed": 29.005945167999926,
+        "prompt_tokens": 99814,
+        "completion_tokens": 29,
+        "total_tokens": 99843,
+        "content": "```json\n{\"function_name\": \"calc_repomind_token_budget_v7\", \"magic_constant\": 4242}\n```",
+        "error": null
+      },
+      "grading": {
+        "found_function_name": true,
+        "found_magic_constant": true,
+        "passed": true
+      }
+    },
+    {
+      "position": "middle",
+      "target_tokens": 200000,
+      "result": {
+        "ok": true,
+        "elapsed": 73.22098352800003,
+        "prompt_tokens": 199413,
+        "completion_tokens": 29,
+        "total_tokens": 199442,
+        "content": "```json\n{\"function_name\": \"calc_repomind_token_budget_v7\", \"magic_constant\": 4242}\n```",
+        "error": null
+      },
+      "grading": {
+        "found_function_name": true,
+        "found_magic_constant": true,
+        "passed": true
+      }
+    },
+    {
+      "position": "late",
+      "target_tokens": 200000,
+      "result": {
+        "ok": true,
+        "elapsed": 20.46205818099952,
+        "prompt_tokens": 99814,
+        "completion_tokens": 25,
+        "total_tokens": 99839,
+        "content": "{\"function_name\": \"calc_repomind_token_budget_v7\", \"magic_constant\": 4242}",
+        "error": null
+      },
+      "grading": {
+        "found_function_name": true,
+        "found_magic_constant": true,
+        "passed": true
+      }
+    }
+  ]
+}

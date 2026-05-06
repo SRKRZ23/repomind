@@ -1,0 +1,56 @@
+{
+  "benchmark": "throughput_vs_context",
+  "model": "Qwen/Qwen3-Coder-Next-FP8",
+  "base_url": "http://localhost:8000/v1",
+  "max_completion_tokens": 64,
+  "runs": [
+    {
+      "target_context_tokens": 8192,
+      "result": {
+        "ok": true,
+        "elapsed": 49.92318977900004,
+        "prompt_tokens": 8090,
+        "completion_tokens": 34,
+        "total_tokens": 8124,
+        "content": "The LCS function is named `longest_common_subsequence` and has time complexity O(n*m), where n and m are the lengths of the two input strings.",
+        "error": null
+      },
+      "ttft_seconds": 0.46130653900002017,
+      "stream_total_seconds": 0.9351847579999912,
+      "tokens_per_sec": 0.6810462262229474,
+      "decode_throughput_tps": 0.6873980077754918
+    },
+    {
+      "target_context_tokens": 32768,
+      "result": {
+        "ok": true,
+        "elapsed": 3.988731850000022,
+        "prompt_tokens": 32808,
+        "completion_tokens": 37,
+        "total_tokens": 32845,
+        "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+        "error": null
+      },
+      "ttft_seconds": 3.1979053339999837,
+      "stream_total_seconds": 3.7804896449999887,
+      "tokens_per_sec": 9.276131209471952,
+      "decode_throughput_tps": 46.78649394198893
+    },
+    {
+      "target_context_tokens": 65536,
+      "result": {
+        "ok": true,
+        "elapsed": 10.63528050399998,
+        "prompt_tokens": 65523,
+        "completion_tokens": 36,
+        "total_tokens": 65559,
+        "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+        "error": null
+      },
+      "ttft_seconds": 10.00893622700005,
+      "stream_total_seconds": 10.644058215999962,
+      "tokens_per_sec": 3.3849600851110817,
+      "decode_throughput_tps": 57.47637732467701
+    }
+  ]
+}

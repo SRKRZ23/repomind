@@ -1,0 +1,88 @@
+{
+  "benchmark": "throughput_vs_context",
+  "model": "Qwen/Qwen3-Coder-Next-FP8",
+  "base_url": "http://localhost:8000/v1",
+  "max_completion_tokens": 64,
+  "runs": [
+    {
+      "target_context_tokens": 8192,
+      "result": {
+        "ok": true,
+        "elapsed": 48.86734524999997,
+        "prompt_tokens": 8090,
+        "completion_tokens": 34,
+        "total_tokens": 8124,
+        "content": "The LCS function is named `longest_common_subsequence` and has time complexity O(n*m), where n and m are the lengths of the two input strings.",
+        "error": null
+      },
+      "ttft_seconds": 0.43629442600001767,
+      "stream_total_seconds": 0.909794981999994,
+      "tokens_per_sec": 0.6957611432759389,
+      "decode_throughput_tps": 0.7020289550098165
+    },
+    {
+      "target_context_tokens": 32768,
+      "result": {
+        "ok": true,
+        "elapsed": 3.8139675139999554,
+        "prompt_tokens": 32808,
+        "completion_tokens": 36,
+        "total_tokens": 32844,
+        "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+        "error": null
+      },
+      "ttft_seconds": 3.052534197,
+      "stream_total_seconds": 3.6136982430000444,
+      "tokens_per_sec": 9.438989678819908,
+      "decode_throughput_tps": 47.2792550526156
+    },
+    {
+      "target_context_tokens": 65536,
+      "result": {
+        "ok": true,
+        "elapsed": 10.198986119999972,
+        "prompt_tokens": 65523,
+        "completion_tokens": 36,
+        "total_tokens": 65559,
+        "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+        "error": null
+      },
+      "ttft_seconds": 9.611239674999979,
+      "stream_total_seconds": 10.248622975999979,
+      "tokens_per_sec": 3.529762623110629,
+      "decode_throughput_tps": 61.250902164113306
+    },
+    {
+      "target_context_tokens": 131072,
+      "result": {
+        "ok": true,
+        "elapsed": 34.21014373100002,
+        "prompt_tokens": 130953,
+        "completion_tokens": 36,
+        "total_tokens": 130989,
+        "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+        "error": null
+      },
+      "ttft_seconds": 33.04536424499997,
+      "stream_total_seconds": 33.8332792839999,
+      "tokens_per_sec": 1.0523194606568718,
+      "decode_throughput_tps": 30.907137730959892
+    },
+    {
+      "target_context_tokens": 258048,
+      "result": {
+        "ok": true,
+        "elapsed": 119.56295666899996,
+        "prompt_tokens": 257451,
+        "completion_tokens": 37,
+        "total_tokens": 257488,
+        "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+        "error": null
+      },
+      "ttft_seconds": 117.82253361899996,
+      "stream_total_seconds": 118.9551899679999,
+      "tokens_per_sec": 0.3094603966881766,
+      "decode_throughput_tps": 21.25919902060589
+    }
+  ]
+}

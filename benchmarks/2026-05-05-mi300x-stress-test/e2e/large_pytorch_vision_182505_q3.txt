@@ -1,0 +1,4 @@
+Q: Where does video decoding live in this repo?
+
+A:
+Video decoding functionality lives in the `torchvision.io` module, specifically in files like `torchvision/io/video.py` and `torchvision/io/video_reader.cpp`. The implementation uses `pyav` (FFmpeg bindings) as the backend for decoding videos, as indicated by the `_video_backend = "pyav"` setting in `torchvision/__init__.py`. The C++ implementation for video decoding can be found in the `torchvision/csrc/io/video` directory.

@@ -1,0 +1,4 @@
+Q: What does the chunker module prioritize when truncating to a token budget?
+
+A:
+The chunker module prioritizes files and code sections based on their importance using a priority system (0 = highest, 4 = lowest). It prioritizes README/docs (priority 0), top-level symbols like functions and classes (priority 1), nested/private symbols (priority 2), and tests/generated code (priority 3). When truncating to a token budget, it includes higher-priority chunks first and truncates lower-priority content last.

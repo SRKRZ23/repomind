@@ -1,0 +1,8 @@
+Q: Which agent module implements the SC-TIR loop, and how many max steps by default?
+
+A:
+The `agent/loop.py` module implements the SC-TIR loop (PLAN → CALL TOOL → OBSERVE → THINK → ANSWER), adapted from AIMO3's math reasoning pipeline.
+
+By default, the agent runs with `max_steps=6`, as defined in the `Agent` class constructor.
+
+The loop stops when the LLM emits a final answer without tool calls or when the step budget is exhausted.

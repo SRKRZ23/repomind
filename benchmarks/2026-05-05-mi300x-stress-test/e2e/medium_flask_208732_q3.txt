@@ -1,0 +1,4 @@
+Q: What does the `Flask.run()` method delegate to?
+
+A:
+Based on the provided documentation, the `Flask.run()` method is a convenience wrapper for starting the development server. It delegates to the `flask run` CLI command, which is implemented using the Click library. This is evident from the `docs/server.rst` file which states: "The ``flask run`` CLI command is the recommended way to run the development server" and shows that `app.run(debug=True)` is equivalent to using the `flask run --debug` command.

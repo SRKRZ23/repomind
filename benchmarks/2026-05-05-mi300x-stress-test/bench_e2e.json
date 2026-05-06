@@ -1,0 +1,156 @@
+{
+  "benchmark": "end_to_end_repos",
+  "model": "Qwen/Qwen3-Coder-Next-FP8",
+  "base_url": "http://localhost:8000/v1",
+  "max_completion_tokens": 512,
+  "target_context_tokens": 180000,
+  "tiers": [
+    {
+      "label": "small_repomind",
+      "ingest_seconds": 0.07313093599987042,
+      "prompt_tokens_used": 72728,
+      "chunks_total": 348,
+      "n_files": 68,
+      "total_repo_tokens": 67618,
+      "questions": [
+        {
+          "question": "What does the chunker module prioritize when truncating to a token budget?",
+          "result": {
+            "ok": true,
+            "elapsed": 15.133028922999983,
+            "prompt_tokens": 79211,
+            "completion_tokens": 92,
+            "total_tokens": 79303,
+            "content": "The chunker module prioritizes files and code sections based on their importance using a priority system (0 = highest, 4 = lowest). It prioritizes README/docs (priority 0), top-level symbols like functions and classes (priority 1), nested/private symbols (priority 2), and tests/generated code (priority 3). When truncating to a token budget, it includes higher-priority chunks first and truncates lower-priority content last.",
+            "error": null
+          },
+          "tokens_per_sec": 6.0794174430059735
+        },
+        {
+          "question": "Which agent module implements the SC-TIR loop, and how many max steps by default?",
+          "result": {
+            "ok": true,
+            "elapsed": 14.961951821000184,
+            "prompt_tokens": 79214,
+            "completion_tokens": 84,
+            "total_tokens": 79298,
+            "content": "The `agent/loop.py` module implements the SC-TIR loop (PLAN \u2192 CALL TOOL \u2192 OBSERVE \u2192 THINK \u2192 ANSWER), adapted from AIMO3's math reasoning pipeline.\n\nBy default, the agent runs with `max_steps=6`, as defined in the `Agent` class constructor.\n\nThe loop stops when the LLM emits a final answer without tool calls or when the step budget is exhausted.",
+            "error": null
+          },
+          "tokens_per_sec": 5.6142407758658806
+        },
+        {
+          "question": "Name three tools in the agent's tool layer.",
+          "result": {
+            "ok": true,
+            "elapsed": 15.230233598999803,
+            "prompt_tokens": 79206,
+            "completion_tokens": 98,
+            "total_tokens": 79304,
+            "content": "Based on the repository structure, three tools in the agent's tool layer are:\n\n1.  `read_file` - for reading files from the ingested repository.\n2.  `grep_codebase` - for searching the codebase with regular expressions.\n3.  `execute_code` - for running Python code in a sandboxed environment.\n\nThese are part of a larger registry that also includes `run_tests` and `git_log`, as defined in `tools/registry.py`.",
+            "error": null
+          },
+          "tokens_per_sec": 6.434569723634169
+        }
+      ]
+    },
+    {
+      "label": "medium_flask",
+      "ingest_seconds": 0.9766870580006071,
+      "prompt_tokens_used": 179985,
+      "chunks_total": 1995,
+      "n_files": 227,
+      "total_repo_tokens": 408447,
+      "questions": [
+        {
+          "question": "Where is the WSGI request entry point in this codebase?",
+          "result": {
+            "ok": true,
+            "elapsed": 81.7345886639996,
+            "prompt_tokens": 208734,
+            "completion_tokens": 96,
+            "total_tokens": 208830,
+            "content": "The WSGI request entry point is the `wsgi_app` method of the `Flask` class, defined in `src/flask/app.py`. This method is called by the WSGI server when a request arrives and handles the full request lifecycle, including context management, routing, and response generation. The `__call__` method of the `Flask` class delegates to `wsgi_app`, making the Flask instance itself a WSGI application.",
+            "error": null
+          },
+          "tokens_per_sec": 1.1745333471321875
+        },
+        {
+          "question": "How does Flask handle URL routing \u2014 name the central object and its method.",
+          "result": {
+            "ok": true,
+            "elapsed": 81.31131004600047,
+            "prompt_tokens": 208735,
+            "completion_tokens": 79,
+            "total_tokens": 208814,
+            "content": "Flask uses the **Werkzeug routing system** to handle URL routing. The central object is the **`url_map`** attribute of the `Flask` class, which stores all registered URL rules. Routes are registered using the **`route()`** decorator (or equivalently, `add_url_rule()` method), which adds `Rule` objects to the `url_map`.",
+            "error": null
+          },
+          "tokens_per_sec": 0.9715745565445584
+        },
+        {
+          "question": "What does the `Flask.run()` method delegate to?",
+          "result": {
+            "ok": true,
+            "elapsed": 82.073099835,
+            "prompt_tokens": 208732,
+            "completion_tokens": 101,
+            "total_tokens": 208833,
+            "content": "Based on the provided documentation, the `Flask.run()` method is a convenience wrapper for starting the development server. It delegates to the `flask run` CLI command, which is implemented using the Click library. This is evident from the `docs/server.rst` file which states: \"The ``flask run`` CLI command is the recommended way to run the development server\" and shows that `app.run(debug=True)` is equivalent to using the `flask run --debug` command.",
+            "error": null
+          },
+          "tokens_per_sec": 1.230610275511108
+        }
+      ]
+    },
+    {
+      "label": "large_pytorch_vision",
+      "ingest_seconds": 2.5908821260009063,
+      "prompt_tokens_used": 179984,
+      "chunks_total": 6799,
+      "n_files": 581,
+      "total_repo_tokens": 1307491,
+      "questions": [
+        {
+          "question": "Name three transforms that touch the alpha channel.",
+          "result": {
+            "ok": true,
+            "elapsed": 64.79107147099967,
+            "prompt_tokens": 182505,
+            "completion_tokens": 120,
+            "total_tokens": 182625,
+            "content": "Based on the provided code, three transforms that can touch the alpha channel are:\n\n1.  **`RandomErasing`**: This transform can erase regions from images, and its `forward` method explicitly handles masks, which can be related to alpha channels.\n2.  **`RandomOcclusion`**: This transform adds occlusions, which can affect the alpha channel by masking out parts of the image.\n3.  **`ToGPU`**: This transform moves tensors to the GPU, and if the input images have an alpha channel, it will be included in the tensor transfer.",
+            "error": null
+          },
+          "tokens_per_sec": 1.852107046164713
+        },
+        {
+          "question": "Which file defines the ResNet bottleneck block?",
+          "result": {
+            "ok": true,
+            "elapsed": 64.04069452800013,
+            "prompt_tokens": 182505,
+            "completion_tokens": 93,
+            "total_tokens": 182598,
+            "content": "Based on the repository contents, the ResNet bottleneck block is defined in `torchvision/models/resnet.py`. This file contains the `Bottleneck` class which implements the bottleneck architecture used in ResNet models like `resnet50`, `resnet101`, and `resnet152`. The implementation follows the ResNet V1.5 variant where the stride for downsampling is placed in the second 3x3 convolution.",
+            "error": null
+          },
+          "tokens_per_sec": 1.4522016146988874
+        },
+        {
+          "question": "Where does video decoding live in this repo?",
+          "result": {
+            "ok": true,
+            "elapsed": 64.15429551000034,
+            "prompt_tokens": 182505,
+            "completion_tokens": 97,
+            "total_tokens": 182602,
+            "content": "Video decoding functionality lives in the `torchvision.io` module, specifically in files like `torchvision/io/video.py` and `torchvision/io/video_reader.cpp`. The implementation uses `pyav` (FFmpeg bindings) as the backend for decoding videos, as indicated by the `_video_backend = \"pyav\"` setting in `torchvision/__init__.py`. The C++ implementation for video decoding can be found in the `torchvision/csrc/io/video` directory.",
+            "error": null
+          },
+          "tokens_per_sec": 1.511979817234213
+        }
+      ]
+    }
+  ]
+}

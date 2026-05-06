@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Slide 4 — Verified evidence on real hardware. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <style>
+      .brand { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 900; }
+      .body  { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      .mono  { font-family: 'Menlo', 'Monaco', 'Courier New', monospace; }
+    </style>
+  </defs>
+  <rect width="1920" height="1080" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="22" height="1080" fill="#ED1C24"/>
+
+  <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAB7CAQAAACoC/BaAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfqARQUBiN2AqZkAAARH0lEQVR42u2deXwV1RXHv9mAxIAKalkKlaIiFRA/WpfaohWVEsDSCoqgRIQYEcjSpp9aq2JtK9VWoQjEpUgEimX5uLBaN6zVTxcKlQpotaUUFPAjCojBQkhe/4gP8kJeMnNmvTPn+/6BvHfv3Lkz5zf3njn33AwURakngxlMitcpZ+lVV5QjPEcHzlcBUBSVABUARVEJUAFQFJUAFQBFUQlQAVAUlQAVAEVRCTCfDE9qLabIQen7WRxAT0ziRhu/3sg4agO/eseziJNs/P5OVlv63S2M97Tdh6jmAAfZRw272cZ/2co2DobQOmYxQZXQfre9S8LBZ4NHstQ8U222cmbg/ZzDCzbbfL3Fmn/i6PrJPnW8z+vMppBegVz/dPfy7AD6ws+PB1zhuFGXGyAACcoDvjnn2G5xmAWg4Wcvz/NT+odighp1CfCApY4btdIIAajluwHemHcI+tUUAUh+djOPERwXuAQ8pAJgnY4ccmE42MsAAUhQzQUB3ZSjqIuBANR/PmEhl+gowJtPpuudNY4cFzq8zAhvRx4rOC2A436Dx0M0T/aatlzHK7xFKXkBtSDBxBD4fDwh0/X63PEf32DLux0cJ7GME30+Zk+eoXXsXMtnMp1tTA3ovkhQQqUKQMsM5FRX6sk15vVLL5/NsQPLaU886cBt/Ie7aaOjgLAKQLFrNU0K5DJL6E+VbwPyNizjdOJMPlN4h5vJDEACSqInAe52YxcGu1bXKYw0phdHMsWnqzWfr6F05RFeo6dOBMImAOPJdrG27xvk6LqLQh+Och/D1fo/5yL+Tqnvd0jkJgJuCkAWY11tW28GGNOPGTzmefjSeCrU7huQy3RW00knAmERgAK+5HLryg3qyRyW8BUP6y+IphfaIQNZz8UBSMDDKgDHUux66wYFEBAk5wRW8gWP6u7NQlenV9GhIy/57i1KcGtURgHuCUBXvuXBwLrUqN48lZWeBK52ZhXHq62noTUL+aFOBIIWgCJPlm6MMSQgKMm5LHD9BVU7VtNV7bzZB8UveMBnh2BEJgJu3azZ3ORJ+3KNW489jAdcrS+LBfRVG2+R7zEjgInALBWAeobSxaMWmhMQlKSMEhdrm8FQtW6Ld0qF7xIw2XQJcEsAij1roUkBQUmmMcylmm7jVrVsy9zv0Tg0whLgjme5O1d42MZyqoyT1QVcwjrH9VzLvcac836etPCrPFrTjny608mDOXsGj7CD53yXgCxuibcAFHkamd2XAbxkWL8ex3Iu4r+O6rjYxzUGztltcxTYmm704Hwu5EIX11NmM59+vO+7LwBzJcA5OezyOG2BHxmCprre6o2OXt2dxoeut8jLhCBbHDy3z+YeNrt2lmsCSCWWQWV8E4IM8yz8JckgzjRQGM9iqTg5SgdWGfYC1MkTdAN38RX68DCfuVDfpdwewDncauZLQTcEoNjzVpqSIagxl/OIqFwbnonhot+NTKAbU9jnuKa7AlgzaagEOBeAHlzmQzvHGPo8HMsdArl7jK/HdDq5m3vowQzqHHoCHg0gcNrIuADn3VQscFRttx3Zlsst/MzIW/oetrDQVol7Lc/Vo8lHlLKUBXRzNP0qCmDxVILJLPVRes7h/qAvVis+ECR7vkzgrvjA44CgqZ45Wg7aGiON89DlE04nYDovyGpH5/oRHSIvlQOCdwJezSm2yyzkZTbYLnUK1xp6mVqxxHL2moHRWWjqeBww2FFQdXvu0k703gcgcQBWAbMF5cqN7eX2rORkC7/ry2Jd9HuEOir4uYPyE3QJldcCcCb9bZfZwHrgtwJf79kGZQhqTA+eJbeF33RmBe30lkzhDgcSkMNk7UBvBUDiAKwCoJonYjUGgIuY12xv57NCn1hNcKeDvaKLNYuClwKQyxjbZWr47ef/qhTsS1ZgZEBQkuHcl/a7LBZxjt6OTZBgHG8Ky7ZzOUulFTLiIwDDBRtUrOTDz//1NmsEnVtm9M1ckTZi/CEK1NbT8CnXUyMsW+rz/gGlLm2MY4QASJY/zG3wb4kjcIzhAbIzuapJYZigdt4M/xC/7z7V15CqMqbFZwTQWxBu+QGrG/zvWcGqrVwfAo+9JIsF9Gv0t6ubmRoo9fyMfwtLjvDx6f+geVu2ygVAYogLUoZyh3lUUEeJcRmCUmnLypQYt6+24BxUAP4nfhsw3Ke1gQY+/Z0IQC6jBaXmNfr/o4K5nbkBQUka5vjtzvLANr02i3m8IyrX0Zd9A8pMfPo7EYCRgiQOf+Mfjf6yi6cFxy43/mY+i0VkA+1Z7flS6qhQyzRhyat18O++AEgcgFVN/E2yYMPkgKAkA3nYVoiwAk9yQFSuv8ftMnTw70QA+nG+7TIHm8wZ9wqbDB4DJByUHccbDhZSJ2IoAPtE40Xo42l8pcFPf7kASByAy/i4yb9LxgBhCQj61zFeDTs42fbszliOAX4nKpXFBR6a/zSTzV8mAPmMEpSam+bv8/jEdl1h2TIswfhA0pXOCX4deCCs4aConFduwDLTzV8mANcJhlQ7eD7NN/uPBAfbYUxIVnvXMIK3fT7m87HNQFvN66JyF+rg300BkEwA5lOb9jvJJCAvNEawh8FHwpv9YCMjOExceUVUqqcn5j/NfPOXCMB5nCs4TnNr/97kVUGNk0MTELSFwUL/tH12MUQwZYoOfxeV6korHfy7JQCS5/+feKvZ7yVjgC+EKCBoLTc6TGNpjc8Y5nCzEdN5Q1Qqy1F+wabM/8FomL99AWgn2qmvqoXvn2KXoNYwBQQtEWT/tUsdo/gL8eY99ojKfVnn/u4IwGjyBc+tRS384hC/EbT9bF8SkltlKnM8PkIFz6BsD1gASqMy+JcJQJHgGE9ZSP9VKVrxHa6g4Am84GHtj4lDYaM2BpDg1jujsmiZv10BuFCUtcZK8q8drBDUXBCqUNoaRojiGq2wSjMGHLlTJOS7cuxIDf4lAiBxAL7Hy5Z+N1vU+rJQ9eY+hvCBB/VuYlQzr1HjxX5RKTdWXEbu6W9XAE7gGsERqizeui/xT0HthSHLELSVwVS7XOdOBrmwX15UkL1wzXfB/B+MnvnbE4AxAh1NWM7+mxBtiRG+DEHrGOnq0/oAw4SOr2gi2z/4ODV/5wJws6D+1/iXjbGCRN0nuh7k4ZQV3OZaXbVcy1/V6hsgi7fIcXTM0qiavx0B+DpnCeqfa+O3e21uollPJ1Fkgrf8SuTRaIpykXM0yuSKSjmZlkVy7m9fAIpF3b7U1u9nis6hIoSXp8QVw53OQ2rxjZAFgB9wYP4PRtf8rQtAB4YLal9i02e7gT8JjtKHb4auX2sZJdgANZVVVKi9H0N7UalqNX9nAlAoUt4q2yVke7qHMUvgfgqEQSv1rOdaffXX5JTPvxFA5M3fqgBkiByAWwSr/BaLltYWhDK33g6GiZ882xnKp2rtgQpAafTN36oAXCIysCcEmesOiiLqM0OSIagx67hG9BTfz1BhxFvUyaCHqNxOwdN/WvTN36oASByACRaIWlQpMpnCkG4ZJpnH1zLasf8gqnxJmOBzqw7+5QJwMt8R1LyGLaIWbUvZPswqeaJJih9Mt/1uYyLL1dLT0EdYzp4AlMbF/K0JwFhaC2qeK26T7B36pNAFBB19mjxr49e/5BG187TIsvsdtuWOjcng36oAZDBeUO8nPCVu03O8KygVxoCg5JB+FGst/nYFP1IrbwbZC9/tNrIolsXn6W9NAAZwuqDexQ5CLxKiTUPDvGXYAb5j6Rn0V3311yz5nCcqZ32ZWWm8zN+KAMiy78511Ko5IvnoF6oMQam8b2FF31au8i25qJkMEcb0Ww0vi9Xgv57sFr7vyFWCWqvpQ29H7doiKl9uMfdAEGxkFMua2ap6r0e5BKKENA2stUyKneL29LciADeJNPc40dJe5xTQU5RVwB9WUZr2jYCX2YSiwokMEpWrsygA2fEz/5amAJkiB2CQZ1Ma6vbNSpvXr4QX1cJboFj0Ngo2s1c7TyYAV9LdsPMpDMmWYemoaPKV4NSARkwm0YpJwpKvaedJBaDYuPPJC3mb6xjN3xr9bTE/1huxRW6gi7DkU9p5MgHoxGADz2hiaAOC6qlmaMruPmsZK1gzETfaco+w5Ees0e6TCUCRw0RKwdA5tAFBSXZRcGRW+h+G6Ks/C/yYzsKSz8R4K1ULpH8LkGWYA/AoZcwLeQs3cwZtAfhYHVQWOMdB+nedAAgFYBBdjb1dvhn6Yd+Hvm4pbjb5PCn0/8MufbsinQIUG3xW5XphI8QsB+leZnFIO1AiAF2FQRfhYAi99NJGhJ8zRlz2gL5elQpAUTNBq+Eng8l6aSPBZG53UHouu7ULJQKQzU2Gn1fYA4IUKzJ+N792UL6W6dqJLZGdZgjdxfDzyqOYe/XyGkxr5jDaUQ2P29iVyj28dZ0n2NogauSwVwJQHIEbaCK/UgeQsfSlSrQV/VH2BBRf+Yqn5l/GjAb/f5VKp9vGNzUF6M6VEbiFOosXjyrBksMU1jo0f5gSuRetjc0fEkwU7qTRrAAU2doyNLxUxHF5p+FkMoJN3O04nHuTU8MwwPyTEjDTXQHIYWxkhpGXqkUZxAkU8w6LRSnoUqmhKGIBwE2bf/03JU7E7lgfwLfpGJluK9eFIEaQx+XcwBDhxp/Hcrtoj0kTzT85CkDqCzhWAGQOwKcZ52kXzBYt8RnMGbyj9hVSMuhCb/rTn6+6uoJzOQ/EyPwdSkBjATiNAaJGzmGPp50wUyQAmZRxq1qaL7S1sDVLJseTRxtOoCM96OHaE78hWymM1PLqls3f8SigIfeTEHx2tJhb0DlviFpWbXk76amC2oPLP5gj6o3rLdb+E1HtYfjs41xxn3YN4fnUUWJjRDXb/hFSnYCtKBR13XwfXC4yR0deJGIaFGsc4CrWxe7p33AUYPuNQKoAXM0pooZW+dAZ84WTjEkhzxCkuMUhhvOH2Jp/fYkSuxKQKgCyp+WfecsXdZftNqwBQfGglutF28pGx/xFEtBQAHrSP7TPf4DZQueOBgRFn2qGsST25i+QgMyU57/EUD5jkU+d8rYwzrovl6iFRJod9GeFmn8DCai0LwBthA7Ap33MajdbWE4zBEWZP3Ie69X8U2qw7A48KgAjLL8wC2YCAPAsO0TlhnCG2klEZ/73cRk71fylo4CjAnCz6EDbecnHzqkRbhwe9i3DFBlbuJTbIhX17475J0cBldYFoBcXiw7zBHW+dtCj1IjK3agZgiLGYWZwdsS2/XLP/C1PBJICMEHkAEzwhM9dtLPJvfVaJk84wlHCaSjL6Ecpn6r5O50I1AtAruUg0VT+GEDSJenSRw0IigovcgHfjtxm6u6bv6VRQL0AjOREUfVVAXTUGmHYUWeuUdsxnue5iCtYG8ExjRfmb2EUUC8AsgjAapYG0lXSMcAP1H4MZhcz6MtA/hzJKY1X5t/iKCAT6MsFooqXsD+Q7qoSHlczBJlJHS9yDd0o5c1Inp+35p8cBcxMLwATxIYYDPtZKCypAUFm8SFLKOaLXMES4dsfNf8WJCCbfEaJqtzCq4F1WqVw0jKE03lX7Sr07GE9L/J73ohUao/gzD8pAVnHPuyzuY52wud/cBdnA6+L4hYyKWOi2ldI2ck6NrGZdWyOvOH7bf5JX0AtkxoLgOxZWse8QLuuUhi4VMidfKy2Fhj7Ocwn1LKPOvayl/d4j51sYwfv87+Y9YW/5t/MKEBRFL9TgtlJ9uUmGTyU0g5FUXwXgKDM/1gJUBTFZwEI0vwbS4CiKL4KQNDmnyoBiqL4KABhMP+GEqAoim8CEBbzPyoBiqL4JABhMv+kBCiK4osAhM38ATI0Ybai1JNNN0/rr2F7+E76/zNnVeQOyrRQAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDI2LTAxLTIwVDIwOjA2OjM1KzAwOjAwTXSwQwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyNi0wMS0yMFQyMDowNjozNSswMDowMDwpCP8AAAAASUVORK5CYII=" x="1700" y="65" width="160" height="80" preserveAspectRatio="xMidYMid meet"/>
+
+  <text x="100" y="110" class="body" font-weight="700" font-size="26" letter-spacing="4" fill="#ED1C24">VERIFIED ON REAL HARDWARE  ·  2026-05-05 / 06</text>
+  <text x="100" y="200" class="brand" font-size="80" fill="#000000" letter-spacing="-2">It works. Here are the numbers.</text>
+  <text x="100" y="270" class="body" font-weight="400" font-size="32" fill="#666666">Single MI300X x1 · vLLM 0.17.1 + ROCm 7.2 · 124 min total · 2 sessions · $4.12 cost</text>
+
+  <!-- Memory peak callouts -->
+  <g transform="translate(100, 340)">
+    <text x="0" y="40" class="brand" font-size="80" fill="#ED1C24">77.29 GiB</text>
+    <text x="0" y="80" class="body" font-weight="600" font-size="22" fill="#000000">model weights in VRAM</text>
+  </g>
+  <g transform="translate(500, 340)">
+    <text x="0" y="40" class="brand" font-size="80" fill="#ED1C24">94.58 GiB</text>
+    <text x="0" y="80" class="body" font-weight="600" font-size="22" fill="#000000">KV cache available (2,065,744 tokens)</text>
+  </g>
+  <g transform="translate(950, 340)">
+    <text x="0" y="40" class="brand" font-size="80" fill="#ED1C24">92%</text>
+    <text x="0" y="80" class="body" font-weight="600" font-size="22" fill="#000000">VRAM peak (176 / 191.7 GiB)</text>
+  </g>
+  <g transform="translate(1320, 340)">
+    <text x="0" y="40" class="brand" font-size="80" fill="#ED1C24">31.31×</text>
+    <text x="0" y="80" class="body" font-weight="600" font-size="22" fill="#000000">vLLM max concurrency at 256K</text>
+  </g>
+
+  <!-- Verification table -->
+  <g transform="translate(100, 480)">
+    <line x1="0" y1="0" x2="1720" y2="0" stroke="#000000" stroke-width="2"/>
+
+    <text x="0"    y="50" class="body" font-weight="600" font-size="26" fill="#000000">--max-model-len 262144 startup</text>
+    <text x="1720" y="50" text-anchor="end" class="brand" font-size="28" fill="#000000">Application startup complete ✓</text>
+    <line x1="0" y1="70" x2="1720" y2="70" stroke="#E5E5E5" stroke-width="1"/>
+
+    <text x="0"    y="120" class="body" font-weight="600" font-size="26" fill="#000000">/v1/models endpoint response</text>
+    <text x="1720" y="120" text-anchor="end" class="mono" font-weight="600" font-size="26" fill="#ED1C24">max_model_len: 262144</text>
+    <line x1="0" y1="140" x2="1720" y2="140" stroke="#E5E5E5" stroke-width="1"/>
+
+    <text x="0"    y="190" class="body" font-weight="600" font-size="26" fill="#000000">vLLM startup time (verified vllm_default.log:92)</text>
+    <text x="1720" y="190" text-anchor="end" class="brand" font-size="28" fill="#000000">42.2 sec (vs industry months)</text>
+    <line x1="0" y1="210" x2="1720" y2="210" stroke="#E5E5E5" stroke-width="1"/>
+
+    <text x="0"    y="260" class="body" font-weight="600" font-size="26" fill="#000000">Warm restart (model cached)</text>
+    <text x="1720" y="260" text-anchor="end" class="brand" font-size="28" fill="#000000">1 min 22 sec</text>
+    <line x1="0" y1="280" x2="1720" y2="280" stroke="#E5E5E5" stroke-width="1"/>
+
+    <text x="0"    y="330" class="body" font-weight="600" font-size="26" fill="#000000">Tuning attempt (AITER backend)</text>
+    <text x="1720" y="330" text-anchor="end" class="body" font-weight="700" font-size="22" fill="#ED1C24">measured A/B regression — see slide 7</text>
+    <line x1="0" y1="350" x2="1720" y2="350" stroke="#000000" stroke-width="2"/>
+  </g>
+
+  <!-- Evidence pack callout -->
+  <g transform="translate(100, 870)">
+    <rect x="0" y="0" width="1720" height="130" fill="#F5F5F5"/>
+    <rect x="0" y="0" width="6" height="130" fill="#ED1C24"/>
+    <text x="40" y="50" class="body" font-weight="700" font-size="22" letter-spacing="3" fill="#666666">FULL EVIDENCE PACK (PUBLIC, MIT):</text>
+    <text x="40" y="90" class="body" font-weight="500" font-size="26" fill="#000000">7 JSON results · 5 PNG plots · 15 e2e prompt/answer files · 2× rocm-smi snapshots · 3× vLLM startup logs</text>
+    <text x="40" y="118" class="mono" font-weight="600" font-size="16" fill="#000000">github.com/SRKRZ23/repomind/tree/main/benchmarks/2026-05-05-mi300x-stress-test</text>
+  </g>
+</svg>

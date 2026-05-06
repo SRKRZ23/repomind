@@ -1,0 +1,1793 @@
+{
+  "benchmark": "concurrency_matrix",
+  "model": "Qwen/Qwen3-Coder-Next-FP8",
+  "base_url": "http://localhost:8000/v1",
+  "max_completion_tokens": 64,
+  "cells": [
+    {
+      "target_context_tokens": 32768,
+      "concurrency": 1,
+      "wall_clock_seconds": 3.6198275040001135,
+      "successful": 1,
+      "failed": 0,
+      "errors": [],
+      "latency": {
+        "min": 3.607921153999996,
+        "p50": 3.607921153999996,
+        "p95": 3.607921153999996,
+        "max": 3.607921153999996
+      },
+      "tokens": {
+        "prompt_total": 32808,
+        "completion_total": 36,
+        "aggregate_completion_tps": 9.945225279441622
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 3.607921153999996,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        }
+      ]
+    },
+    {
+      "target_context_tokens": 32768,
+      "concurrency": 8,
+      "wall_clock_seconds": 24.219953288999932,
+      "successful": 8,
+      "failed": 0,
+      "errors": [],
+      "latency": {
+        "min": 23.707015884000157,
+        "p50": 23.937474216999817,
+        "p95": 24.076097883999864,
+        "max": 24.076097883999864
+      },
+      "tokens": {
+        "prompt_total": 262464,
+        "completion_total": 287,
+        "aggregate_completion_tps": 11.84973383620636
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 23.707015884000157,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 23.790127871999857,
+          "prompt_tokens": 32808,
+          "completion_tokens": 37,
+          "total_tokens": 32845,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 23.82916472199986,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 23.886747959000104,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 23.937474216999817,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 23.952220506999993,
+          "prompt_tokens": 32808,
+          "completion_tokens": 34,
+          "total_tokens": 32842,
+          "content": "The LCS function is named `longest_common_subsequence` and has time complexity O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 24.031278538999914,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 24.076097883999864,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        }
+      ]
+    },
+    {
+      "target_context_tokens": 32768,
+      "concurrency": 16,
+      "wall_clock_seconds": 48.523444692999874,
+      "successful": 16,
+      "failed": 0,
+      "errors": [],
+      "latency": {
+        "min": 29.492004011000063,
+        "p50": 47.90216973800011,
+        "p95": 48.21806649699988,
+        "max": 48.22241266700007
+      },
+      "tokens": {
+        "prompt_total": 524928,
+        "completion_total": 576,
+        "aggregate_completion_tps": 11.870550486352741
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 29.492004011000063,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 32.88269022700001,
+          "prompt_tokens": 32808,
+          "completion_tokens": 37,
+          "total_tokens": 32845,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 35.35058087099992,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 38.28353033899998,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 41.699376196,
+          "prompt_tokens": 32808,
+          "completion_tokens": 37,
+          "total_tokens": 32845,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 44.632534276000115,
+          "prompt_tokens": 32808,
+          "completion_tokens": 37,
+          "total_tokens": 32845,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 47.69074347800006,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 47.78065440899991,
+          "prompt_tokens": 32808,
+          "completion_tokens": 34,
+          "total_tokens": 32842,
+          "content": "The LCS function is named `longest_common_subsequence` and has time complexity O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 47.90222018600002,
+          "prompt_tokens": 32808,
+          "completion_tokens": 37,
+          "total_tokens": 32845,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 47.90216973800011,
+          "prompt_tokens": 32808,
+          "completion_tokens": 34,
+          "total_tokens": 32842,
+          "content": "The LCS function is named `longest_common_subsequence` and has time complexity O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 48.000891335000006,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 48.07727862599995,
+          "prompt_tokens": 32808,
+          "completion_tokens": 37,
+          "total_tokens": 32845,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 48.11123003500006,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 48.159524678000025,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 48.22241266700007,
+          "prompt_tokens": 32808,
+          "completion_tokens": 37,
+          "total_tokens": 32845,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 48.21806649699988,
+          "prompt_tokens": 32808,
+          "completion_tokens": 34,
+          "total_tokens": 32842,
+          "content": "The LCS function is named `longest_common_subsequence` and has time complexity O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        }
+      ]
+    },
+    {
+      "target_context_tokens": 32768,
+      "concurrency": 31,
+      "wall_clock_seconds": 92.29030335900006,
+      "successful": 31,
+      "failed": 0,
+      "errors": [],
+      "latency": {
+        "min": 29.51231754199989,
+        "p50": 71.58664539699998,
+        "p95": 91.59201332099997,
+        "max": 91.68338645299991
+      },
+      "tokens": {
+        "prompt_total": 1017048,
+        "completion_total": 1115,
+        "aggregate_completion_tps": 12.081442572171005
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 29.51231754199989,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 32.92362186699984,
+          "prompt_tokens": 32808,
+          "completion_tokens": 37,
+          "total_tokens": 32845,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 35.387758061999875,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 38.306205828999964,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 41.71838034199982,
+          "prompt_tokens": 32808,
+          "completion_tokens": 37,
+          "total_tokens": 32845,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 44.64985109400004,
+          "prompt_tokens": 32808,
+          "completion_tokens": 37,
+          "total_tokens": 32845,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 47.09225773999992,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 48.1487383650001,
+          "prompt_tokens": 32808,
+          "completion_tokens": 34,
+          "total_tokens": 32842,
+          "content": "The LCS function is named `longest_common_subsequence` and has time complexity O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 53.44608284700007,
+          "prompt_tokens": 32808,
+          "completion_tokens": 37,
+          "total_tokens": 32845,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 54.00628476199995,
+          "prompt_tokens": 32808,
+          "completion_tokens": 34,
+          "total_tokens": 32842,
+          "content": "The LCS function is named `longest_common_subsequence` and has time complexity O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 58.78762999699984,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 61.7124988070002,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 64.64589178899996,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 68.10971791200018,
+          "prompt_tokens": 32808,
+          "completion_tokens": 37,
+          "total_tokens": 32845,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 70.4963181500002,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 71.58664539699998,
+          "prompt_tokens": 32808,
+          "completion_tokens": 34,
+          "total_tokens": 32842,
+          "content": "The LCS function is named `longest_common_subsequence` and has time complexity O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 76.34328181199999,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 79.26899484799992,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 82.75500646499995,
+          "prompt_tokens": 32808,
+          "completion_tokens": 37,
+          "total_tokens": 32845,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 85.685758008,
+          "prompt_tokens": 32808,
+          "completion_tokens": 37,
+          "total_tokens": 32845,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 86.22576157900016,
+          "prompt_tokens": 32808,
+          "completion_tokens": 34,
+          "total_tokens": 32842,
+          "content": "The LCS function is named `longest_common_subsequence` and has time complexity O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 91.18604393199985,
+          "prompt_tokens": 32808,
+          "completion_tokens": 33,
+          "total_tokens": 32841,
+          "content": "The LCS function is named `longest_common_subsequence` and has time complexity O(n*m), where n and m are the lengths of the input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 91.20617179200008,
+          "prompt_tokens": 32808,
+          "completion_tokens": 37,
+          "total_tokens": 32845,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 91.29906711099989,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 91.37891583199985,
+          "prompt_tokens": 32808,
+          "completion_tokens": 37,
+          "total_tokens": 32845,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 91.43750368199994,
+          "prompt_tokens": 32808,
+          "completion_tokens": 37,
+          "total_tokens": 32845,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 91.4759826200002,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 91.4928132330001,
+          "prompt_tokens": 32808,
+          "completion_tokens": 34,
+          "total_tokens": 32842,
+          "content": "The LCS function is named `longest_common_subsequence` and has time complexity O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 91.59201332099997,
+          "prompt_tokens": 32808,
+          "completion_tokens": 37,
+          "total_tokens": 32845,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 91.62209366999991,
+          "prompt_tokens": 32808,
+          "completion_tokens": 36,
+          "total_tokens": 32844,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 91.68338645299991,
+          "prompt_tokens": 32808,
+          "completion_tokens": 37,
+          "total_tokens": 32845,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        }
+      ]
+    },
+    {
+      "target_context_tokens": 131072,
+      "concurrency": 1,
+      "wall_clock_seconds": 33.60699245000001,
+      "successful": 1,
+      "failed": 0,
+      "errors": [],
+      "latency": {
+        "min": 33.60503157700009,
+        "p50": 33.60503157700009,
+        "p95": 33.60503157700009,
+        "max": 33.60503157700009
+      },
+      "tokens": {
+        "prompt_total": 130953,
+        "completion_total": 36,
+        "aggregate_completion_tps": 1.0712056442884699
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 33.60503157700009,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        }
+      ]
+    },
+    {
+      "target_context_tokens": 131072,
+      "concurrency": 8,
+      "wall_clock_seconds": 266.03919325100014,
+      "successful": 8,
+      "failed": 0,
+      "errors": [],
+      "latency": {
+        "min": 102.3958737769999,
+        "p50": 234.12813566800014,
+        "p95": 265.89422185800004,
+        "max": 265.89422185800004
+      },
+      "tokens": {
+        "prompt_total": 1047624,
+        "completion_total": 292,
+        "aggregate_completion_tps": 1.0975826397297281
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 102.3958737769999,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 135.548241017,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 168.75646023100012,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 200.92059822300007,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 234.12813566800014,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 265.17365426100014,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 265.56096625500004,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 265.89422185800004,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        }
+      ]
+    },
+    {
+      "target_context_tokens": 131072,
+      "concurrency": 16,
+      "wall_clock_seconds": 531.86171504,
+      "successful": 16,
+      "failed": 0,
+      "errors": [],
+      "latency": {
+        "min": 102.60896414399986,
+        "p50": 367.2587984500001,
+        "p95": 531.2221024539999,
+        "max": 531.5553009730002
+      },
+      "tokens": {
+        "prompt_total": 2095248,
+        "completion_total": 585,
+        "aggregate_completion_tps": 1.0999099642958952
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 102.60896414399986,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 135.7682418129998,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 168.9645808109999,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 201.15456822399983,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 234.34484415700013,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 267.575669004,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 301.8891404630001,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 335.1286744910001,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 367.2587984500001,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 400.3969026279999,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 434.650539107,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 467.84462790600014,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 499.8682681129999,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 530.85927154,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 531.2221024539999,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 531.5553009730002,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        }
+      ]
+    },
+    {
+      "target_context_tokens": 131072,
+      "concurrency": 31,
+      "wall_clock_seconds": 900.6511891290002,
+      "successful": 25,
+      "failed": 6,
+      "errors": [
+        "timed out",
+        "timed out",
+        "timed out",
+        "timed out",
+        "timed out"
+      ],
+      "latency": {
+        "min": 102.60892232700007,
+        "p50": 499.8316052559999,
+        "p95": 866.045927185,
+        "max": 898.0504734590004
+      },
+      "tokens": {
+        "prompt_total": 3273825,
+        "completion_total": 913,
+        "aggregate_completion_tps": 1.0137109804772946
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 102.60892232700007,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 135.79248404999998,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 168.98758431499982,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 201.1208693409999,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 234.25056739499996,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 267.40339270699997,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 301.6649752190001,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 334.8694621469999,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 367.00752872799967,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 400.1786793819997,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 434.5004051149999,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 467.77015334,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 499.8316052559999,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 534.1190991779999,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 567.3135049479997,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 599.4034949430002,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 632.535853672,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 666.8533916759998,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 700.0907564220001,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 732.1675004980002,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 766.5062531890003,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 798.5954268950004,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 831.7684569389999,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 866.045927185,
+          "prompt_tokens": 130953,
+          "completion_tokens": 37,
+          "total_tokens": 130990,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 898.0504734590004,
+          "prompt_tokens": 130953,
+          "completion_tokens": 36,
+          "total_tokens": 130989,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0298911530003,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0596311089998,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.054021078,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0379452080001,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.1004910870001,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0829851099998,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        }
+      ]
+    },
+    {
+      "target_context_tokens": 258048,
+      "concurrency": 1,
+      "wall_clock_seconds": 119.9688278069998,
+      "successful": 1,
+      "failed": 0,
+      "errors": [],
+      "latency": {
+        "min": 119.96607745300025,
+        "p50": 119.96607745300025,
+        "p95": 119.96607745300025,
+        "max": 119.96607745300025
+      },
+      "tokens": {
+        "prompt_total": 257451,
+        "completion_total": 37,
+        "aggregate_completion_tps": 0.3084134493630617
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 119.96607745300025,
+          "prompt_tokens": 257451,
+          "completion_tokens": 37,
+          "total_tokens": 257488,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        }
+      ]
+    },
+    {
+      "target_context_tokens": 258048,
+      "concurrency": 8,
+      "wall_clock_seconds": 900.2272422729998,
+      "successful": 6,
+      "failed": 2,
+      "errors": [
+        "timed out",
+        "timed out"
+      ],
+      "latency": {
+        "min": 242.55393371100035,
+        "p50": 482.03745203399967,
+        "p95": 839.391000049,
+        "max": 839.391000049
+      },
+      "tokens": {
+        "prompt_total": 1544706,
+        "completion_total": 220,
+        "aggregate_completion_tps": 0.24438273990078116
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 242.55393371100035,
+          "prompt_tokens": 257451,
+          "completion_tokens": 37,
+          "total_tokens": 257488,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 361.45496892400024,
+          "prompt_tokens": 257451,
+          "completion_tokens": 37,
+          "total_tokens": 257488,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 482.03745203399967,
+          "prompt_tokens": 257451,
+          "completion_tokens": 37,
+          "total_tokens": 257488,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 601.0348805379999,
+          "prompt_tokens": 257451,
+          "completion_tokens": 37,
+          "total_tokens": 257488,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 720.1922696029997,
+          "prompt_tokens": 257451,
+          "completion_tokens": 36,
+          "total_tokens": 257487,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 839.391000049,
+          "prompt_tokens": 257451,
+          "completion_tokens": 36,
+          "total_tokens": 257487,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0018239219999,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.1007209450004,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        }
+      ]
+    },
+    {
+      "target_context_tokens": 258048,
+      "concurrency": 16,
+      "wall_clock_seconds": 900.4091867880006,
+      "successful": 6,
+      "failed": 10,
+      "errors": [
+        "timed out",
+        "timed out",
+        "timed out",
+        "timed out",
+        "timed out"
+      ],
+      "latency": {
+        "min": 249.15394293600002,
+        "p50": 488.4644931180005,
+        "p95": 845.7148362419998,
+        "max": 845.7148362419998
+      },
+      "tokens": {
+        "prompt_total": 1544706,
+        "completion_total": 220,
+        "aggregate_completion_tps": 0.24433335779791251
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 249.15394293600002,
+          "prompt_tokens": 257451,
+          "completion_tokens": 37,
+          "total_tokens": 257488,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 368.00042132199997,
+          "prompt_tokens": 257451,
+          "completion_tokens": 37,
+          "total_tokens": 257488,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 488.4644931180005,
+          "prompt_tokens": 257451,
+          "completion_tokens": 37,
+          "total_tokens": 257488,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 607.5407146430002,
+          "prompt_tokens": 257451,
+          "completion_tokens": 37,
+          "total_tokens": 257488,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 726.6043394359995,
+          "prompt_tokens": 257451,
+          "completion_tokens": 36,
+          "total_tokens": 257487,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 845.7148362419998,
+          "prompt_tokens": 257451,
+          "completion_tokens": 36,
+          "total_tokens": 257487,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0530476009999,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.1009661870003,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0504120779997,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0104490059998,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.1007035710004,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0985605780002,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.052144962,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0975839580005,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.1006234629999,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.1006776130002,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        }
+      ]
+    },
+    {
+      "target_context_tokens": 258048,
+      "concurrency": 31,
+      "wall_clock_seconds": 900.7118014130001,
+      "successful": 6,
+      "failed": 25,
+      "errors": [
+        "timed out",
+        "timed out",
+        "timed out",
+        "timed out",
+        "timed out"
+      ],
+      "latency": {
+        "min": 249.8632398990003,
+        "p50": 489.2233492740006,
+        "p95": 846.3838692639993,
+        "max": 846.3838692639993
+      },
+      "tokens": {
+        "prompt_total": 1544706,
+        "completion_total": 220,
+        "aggregate_completion_tps": 0.24425126844665845
+      },
+      "per_request": [
+        {
+          "ok": true,
+          "elapsed": 249.8632398990003,
+          "prompt_tokens": 257451,
+          "completion_tokens": 37,
+          "total_tokens": 257488,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 368.86117549200026,
+          "prompt_tokens": 257451,
+          "completion_tokens": 37,
+          "total_tokens": 257488,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 489.2233492740006,
+          "prompt_tokens": 257451,
+          "completion_tokens": 37,
+          "total_tokens": 257488,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 608.2044001190006,
+          "prompt_tokens": 257451,
+          "completion_tokens": 37,
+          "total_tokens": 257488,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n * m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 727.2992850549999,
+          "prompt_tokens": 257451,
+          "completion_tokens": 36,
+          "total_tokens": 257487,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": true,
+          "elapsed": 846.3838692639993,
+          "prompt_tokens": 257451,
+          "completion_tokens": 36,
+          "total_tokens": 257487,
+          "content": "The LCS function is named `longest_common_subsequence` and has a time complexity of O(n*m), where n and m are the lengths of the two input strings.",
+          "error": null
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0356436519996,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0458125000005,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0059245800003,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0546539360002,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.100521931,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.1006168590002,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0853482640005,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0349435549997,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0994109920002,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.1005128849993,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.1005558810002,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0850545590001,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.1005802219997,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.1005802700001,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.1005963039997,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0459960010003,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.1005384159998,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0930535609996,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.1008166490001,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0652303730003,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0462114530001,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.1006336419996,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0432001149993,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.0976363380005,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        },
+        {
+          "ok": false,
+          "elapsed": 900.100665383,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "content": "",
+          "error": "timed out"
+        }
+      ]
+    }
+  ]
+}
