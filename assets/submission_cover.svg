@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Lablab submission cover — 1200x630, new DAG logo, clean, verified-numbers-first. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <style>
+      .brand { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+      .body  { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; }
+      .mono  { font-family: "SF Mono", Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="630" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="14" height="630" fill="#ED1C24"/>
+
+  <!-- top header -->
+  <image href="data:image/png;base64,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" x="1030" y="32" width="120" height="42" preserveAspectRatio="xMaxYMid meet"/>
+  <text x="60" y="60" class="body" font-weight="700" font-size="16" letter-spacing="3" fill="#ED1C24">AMD DEVELOPER HACKATHON  ·  MAY 11, 2026</text>
+
+  <!-- DAG logo + wordmark row -->
+  <g transform="translate(60, 100)">
+    <rect width="140" height="140" fill="#000000" rx="20"/>
+    <line x1="70" y1="46" x2="38" y2="98" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    <line x1="70" y1="46" x2="70" y2="98" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    <line x1="70" y1="46" x2="102" y2="98" stroke="#ED1C24" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="70" cy="46" r="13" fill="#FFFFFF"/>
+    <circle cx="38" cy="98" r="9"  fill="#FFFFFF"/>
+    <circle cx="70" cy="98" r="9"  fill="#FFFFFF"/>
+    <circle cx="102" cy="98" r="11" fill="#ED1C24"/>
+  </g>
+
+  <text x="220" y="160" class="brand" font-size="92" fill="#000000" letter-spacing="-3">REPOMIND</text>
+  <text x="220" y="200" class="body" font-weight="400" font-size="22" fill="#000000">Open-source repo-scale coding agent on a single AMD MI300X.</text>
+  <text x="220" y="228" class="body" font-weight="400" font-size="16" fill="#666666">256K context  ·  FP8  ·  MIT  ·  self-hosted  ·  production-verified</text>
+
+  <line x1="60" y1="280" x2="1140" y2="280" stroke="#E5E5E5" stroke-width="2"/>
+
+  <!-- Memory chart -->
+  <text x="60" y="310" class="body" font-weight="700" font-size="13" letter-spacing="2" fill="#666666">MEMORY NEEDED — Qwen3-Coder-Next-FP8 + 256K + FP8 KV cache ≈ 143 GiB</text>
+
+  <text x="60" y="345" class="body" font-weight="700" font-size="18" fill="#000000">AMD MI300X</text>
+  <rect x="60" y="358" width="780" height="34" fill="#ED1C24"/>
+  <text x="855" y="384" class="brand" font-size="22" fill="#000000">192 GB</text>
+
+  <text x="60" y="425" class="body" font-weight="700" font-size="18" fill="#000000">NVIDIA H100</text>
+  <rect x="60" y="438" width="325" height="34" fill="#000000"/>
+  <text x="400" y="464" class="brand" font-size="22" fill="#000000">80 GB</text>
+  <text x="495" y="464" class="body" font-weight="800" font-size="18" fill="#ED1C24">cannot fit by VRAM math</text>
+
+  <line x1="60" y1="495" x2="1140" y2="495" stroke="#E5E5E5" stroke-width="2"/>
+
+  <!-- KPI strip -->
+  <text x="60" y="520" class="body" font-weight="700" font-size="13" letter-spacing="2" fill="#666666">EMPIRICALLY VERIFIED — 124 MIN STRESS TEST · $4.12 OF COMPUTE · 6.5 DAYS SOLO</text>
+
+  <g transform="translate(60, 540)">
+    <text x="0"   y="30" class="brand" font-size="36" fill="#ED1C24">62</text>
+    <text x="0"   y="56" class="body" font-weight="600" font-size="12" fill="#000000">verified data points</text>
+  </g>
+  <g transform="translate(220, 540)">
+    <text x="0"   y="30" class="brand" font-size="36" fill="#ED1C24">6.49×</text>
+    <text x="0"   y="56" class="body" font-weight="600" font-size="12" fill="#000000">faster on 8K vs 32K (N=31)</text>
+  </g>
+  <g transform="translate(440, 540)">
+    <text x="0"   y="30" class="brand" font-size="36" fill="#ED1C24">9/9</text>
+    <text x="0"   y="56" class="body" font-weight="600" font-size="12" fill="#000000">repo Q&amp;A correct (3 repos)</text>
+  </g>
+  <g transform="translate(640, 540)">
+    <text x="0"   y="30" class="brand" font-size="36" fill="#ED1C24">3/3</text>
+    <text x="0"   y="56" class="body" font-weight="600" font-size="12" fill="#000000">needle pass at 200K tokens</text>
+  </g>
+  <g transform="translate(850, 540)">
+    <text x="0"   y="30" class="brand" font-size="36" fill="#ED1C24">144/144</text>
+    <text x="0"   y="56" class="body" font-weight="600" font-size="12" fill="#000000">outputs clean (default Triton)</text>
+  </g>
+  <g transform="translate(1060, 540)">
+    <text x="0"   y="30" class="brand" font-size="36" fill="#ED1C24">MIT</text>
+    <text x="0"   y="56" class="body" font-weight="600" font-size="12" fill="#000000">open source</text>
+  </g>
+
+  <!-- footer -->
+  <text x="60" y="615" class="mono" font-weight="600" font-size="11" fill="#000000">github.com/SRKRZ23/repomind  ·  Sardor Razikov  ·  Tashkent  ·  Built for AMD Developer Hackathon 2026</text>
+</svg>
