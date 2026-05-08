@@ -77,11 +77,12 @@ The phantom piece is **192 GB HBM3 on a single chip**. NVIDIA H100 caps at 80 GB
 - [x] **Tuning attempt — measured `--attention-backend ROCM_AITER_FA` regression: 2-4× higher throughput BUT 137/144 cells produce broken output (repeating punctuation tokens) under FP8 KV cache. Default Triton stays production-safe; filed for AMD upstream investigation.**
 - [x] **Cost economics — single MI300X handles 14 active simultaneous queriers (continuous 6 q/h), or ~70-140 dev seats for typical bursty engineering workloads**
 
-**Pending (final submission):**
+**Submitted (2026-05-06):**
 
-- [ ] Demo video — export final MP4 from CapCut and upload to YouTube
-- [ ] Lablab Step 2 + Step 3 (cover image + video URL + presentation deck)
-- [ ] Final submit on lablab.ai before 2026-05-11 00:00 Tashkent
+- [x] **Demo video (1:38):** https://youtu.be/BvSBR1QazLU
+- [x] **HF Space:** https://huggingface.co/spaces/lablab-ai-amd-developer-hackathon/repomind
+- [x] **Lablab project page:** https://lablab.ai/ai-hackathons/amd-developer/repomind/repomind
+- [x] **Methodology preprint (ECB):** https://doi.org/10.5281/zenodo.19791329
 
 ## Quickstart (local, no GPU)
 
