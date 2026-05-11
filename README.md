@@ -364,12 +364,22 @@ MIT — see [LICENSE](LICENSE).
 
 ## Author
 
-**Sardor Razikov** — Independent ML Engineer · Tashkent 🇺🇿
+**Sardor Razikov** — Independent ML Engineer · Founder · Researcher · Tashkent 🇺🇿
 
-- Kaggle SPR 2026 #7/371 (Top 1.9%) · S6E3 #23/4,142 · AIMO3 39/50 (XTX $2.2M)
-- Author: [Epistemic Curie Benchmark](https://doi.org/10.5281/zenodo.19791329)
-- TriageGuardian: 99.62 % accuracy on 80 K ED records
-- **REPOMIND: built solo on a single MI300X in 6.5 days for $4.12 of compute.**
+**Research & competitions**
+- Author: [Epistemic Curie Benchmark](https://doi.org/10.5281/zenodo.19791329) — physics-motivated framework for measuring LLM phase transitions (Zenodo DOI, CC BY 4.0)
+- Kaggle SPR 2026 Mammography: **#7 / 371 teams (Top 1.9%)** — Portuguese medical NLP / BI-RADS classification
+- Kaggle S6E3 Customer Churn: #23 / 4,142 (Top 1% public)
+- AIMO3 (XTX $2.2M olympiad math): 39 / 50 with custom SC-TIR inference pipeline on gpt-oss-120B
+- TriageGuardian: 99.62 % accuracy on 80 K ED records (submitted to Triagegeist Clinical AI Hackathon)
+
+**Founder track record**
+- UCAR (auto-services marketplace, 2023–present) — **U-Start Demo Day 2023 1st place** (85M UZS grant + 2-week Korea internship)
+- **KUSE Seoul 2024** — 2nd overall, 1st international (Korea-Uzbekistan Youth Startup Exchange, KOICA × Soonchunhyang University)
+- **UJC PMP-43** senior executive Project Management — youngest student ever admitted to the program
+- 5 languages (Uzbek / Russian / English / Turkish B1 / Chinese) · operations across UK, China, Korea, Uzbekistan
+
+**REPOMIND: built solo on a single MI300X in 6.5 days for $4.12 of compute.**
 
 ## Team
 

@@ -6,7 +6,17 @@ Single source of truth as of **2026-05-06 04:30 Tashkent**. All numbers verified
 
 ## Author
 
-**Sardor Razikov** — Independent ML Engineer · Tashkent 🇺🇿
+**Sardor Razikov** — Independent ML Engineer · Founder · Researcher · Tashkent 🇺🇿
+
+**Hybrid path:** hardware tinkering at 15 (Arduino at Inha University Tashkent) → Leeds Beckett UK Foundation Year (1st place final project) → Zhejiang University Automation Engineering (full scholarship, 1 year) → startup founder (UCAR, **U-Start Demo Day 2023 1st place + 85M UZS grant**) → **KUSE Seoul 2024 2nd overall** (Korea-Uzbekistan Youth Startup Exchange) → **UJC PMP-43 youngest student ever admitted** (senior executive Project Management) → 2-year ML pivot.
+
+**Recent track record:**
+- Author: [Epistemic Curie Benchmark](https://doi.org/10.5281/zenodo.19791329) — physics-motivated framework, Zenodo DOI, CC BY 4.0
+- Kaggle SPR 2026 Mammography: **#7 / 371 (Top 1.9%)** — Portuguese medical NLP
+- Kaggle S6E3 Customer Churn: #23 / 4,142 (Top 1% public)
+- AIMO3 (XTX $2.2M olympiad math): 39 / 50 — custom SC-TIR pipeline on gpt-oss-120B
+- TriageGuardian: 99.62 % accuracy on 80 K ED records
+
 REPOMIND was built solo. Strategic guidance comes from an informal network of
 senior mentors (technical, business, operational) in Tashkent. Looking to
 build full-time engineering team post-funding.
