@@ -373,14 +373,13 @@ MIT — see [LICENSE](LICENSE).
 
 ## Team
 
-REPOMIND is a solo proof for the AMD Developer Hackathon. Forward-looking work
-continues with a **four-person team** that competes together in upcoming
-hackathons and research projects — members will be introduced in the next
-competition cycle.
+REPOMIND was built solo by Sardor Razikov, with informal strategic guidance from
+a small network of senior mentors in Tashkent (technical, business, and
+operational domains). Looking to formalize co-founders and hire engineering team
+post-funding.
 
 **Inquiries from large strategic partners are welcome** — anyone interested in
-hiring, acquiring, or partnering with the team can reach out at the addresses
-below.
+hiring, acquiring, or partnering can reach out at the addresses below.
 
 ## Contact
 

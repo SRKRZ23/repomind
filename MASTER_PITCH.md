@@ -4,11 +4,12 @@ Single source of truth as of **2026-05-06 04:30 Tashkent**. All numbers verified
 
 ---
 
-## Author & team
+## Author
 
 **Sardor Razikov** — Independent ML Engineer · Tashkent 🇺🇿
-REPOMIND was built solo for this hackathon. Forward-looking projects run with
-a four-person team (introduced in the next competition cycle).
+REPOMIND was built solo. Strategic guidance comes from an informal network of
+senior mentors (technical, business, operational) in Tashkent. Looking to
+build full-time engineering team post-funding.
 
 **Welcoming inquiries from large strategic partners** — hire, acquisition, or
 partnership conversations.
