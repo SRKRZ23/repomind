@@ -49,3 +49,6 @@ wandb/
 # Local-only strategy / outreach / pitch docs — NEVER commit
 _private/
 *.private.md
+
+# Nested git repo — lives in its own SRKRZ23/repomind-space repository
+hf_space/

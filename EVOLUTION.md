@@ -442,3 +442,325 @@ Total expected end-of-hackathon spend: $15-30 of $100. Stays well within budget.
 4. HuggingFace Space create + go public
 5. lablab Step 3 submission (deadline 2026-05-11 00:00 Tashkent)
 6. After submission lands: execute build-in-public cadence per BUILD_IN_PUBLIC_DRAFTS.md section H
+
+---
+
+## 2026-05-06 (night) — Day 4: lablab submission landed + Phase C launch wave
+
+### Submission landed at T+0
+
+- Lablab project page live: https://lablab.ai/ai-hackathons/amd-developer/repomind/repomind
+- Submitted 5 days before deadline (deadline 2026-05-11 00:00 Tashkent)
+- Step 1 (Basic Info): final Short Description (236 chars) + Long Description (1978 chars), 4 build-in-public link slots filled (X status URL + LinkedIn post URL + AMD Forum #505 + HF Discussion #5), AMD Cloud feedback section filled with WINS / FRICTION / OVERALL structure
+- Step 3 (Application): GitHub MIT repo + HF Space (org-judged for HF Special Prize) + Demo Application Platform = Hugging Face + Additional Information field with full evidence-pack pointers (demo video + presentation PDF + benchmarks tree + key metrics + author bio + contact set)
+
+### YouTube channel + video assets
+- Channel **@REPOMIND_SR** customized: banner 2048×1152, profile 800×800, watermark 150×150 (transparent + outlined), name REPOMIND, description (English + 6 inline links), 5 channel-level Links (GitHub / HF Live Demo / AMD Hackathon / LinkedIn / X), business email `razikovsardor1@gmail.com`
+- Video **REPOMIND: 256K-context coding agent on a single AMD MI300X (open source, MIT)** — 1:38 length, 88-char title, custom thumbnail 1280×720 (REPOMIND wordmark + "256K context · FP8" red headline + open-source/MIT/github footer), category Science & Technology, allow embedding ✓, public visibility, Content ID claim noted (CapCut "Final Chance For Glory" track — informational only, no restrictions)
+- URL: https://youtu.be/BvSBR1QazLU
+
+### Phase C posting log (T+0 → T+3 hours)
+
+| T+ | Platform | Status / URL |
+|---|---|---|
+| T+0 | Lablab Step 3 final submit | Live ✅ — https://lablab.ai/ai-hackathons/amd-developer/repomind/repomind |
+| T+0 | YouTube video Public | Live ✅ — https://youtu.be/BvSBR1QazLU |
+| T+0 | X main thread (10 tweets) | Live ✅ |
+| T+1 | LinkedIn long-form launch post | Live ✅ — https://www.linkedin.com/posts/sardor-razikov-569a5327b_repomind-256k-context-coding-agent-on-a-share-7457817182069096449-GAP0 |
+| T+2 | AMD Developer Community Forum thread #505 reply to Hakob_Arzumanyan | Live ✅ — `HAKOB_FOLLOWUP_REPLY.md` content posted verbatim. Thread state at posting: 16 views, 4-min read time. Forum auto-embedded GitHub stress-test folder URL as rich card. |
+| T+3 | HuggingFace Discussion #5 (Qwen3-Coder-Next-FP8 page) follow-up | Live ✅ — final "submission landed" reply with full verified results + Qwen team thanks |
+
+### Discord status: 🔴 lablab Discord re-muted (2026-05-06 ~22:23 Tashkent)
+
+Posting REPOMIND submission announcement to lablab.ai Discord `#general-chat-amd-hackathon` triggered auto-mod (4 URLs in single message: lablab + HF + YouTube + GitHub). Message blocked (visible only to author with red ⛔ banner) and 7-day timeout applied — second time this happened (first was 4 May, lifted by Steve Kimoi via email on 5 May).
+
+Mitigation in progress: email Steve Kimoi again requesting unmute. New skill saved to memory: `feedback_lablab_discord_automod.md` — split posts into text-only + links-reply to avoid threshold.
+
+### Pending Phase C (T+4 onward)
+
+- AMD ROCm Discord post (independent of lablab unmute)
+- HuggingFace Discord #showcase post
+- Anthropic Builders Discord #projects post
+- Telegram Stories RU + EN (3 slides each, bio updated to HF Space URL)
+- Facebook RU + EN long-form posts
+- Hacker News Show HN (target peak Tuesday 9 AM EST = ~22:00 Tashkent)
+- Reddit r/LocalLLaMA submission
+- Tier-1 cold DMs (12 decision-makers + 5 lablab judges + 2 HF leadership) — order: Junyang Lin → Lisa Su → Karpathy → Mahati Kumar → Mira Murati → Cursor founders → Demis → Sundar → Sam → Satya → Mark Z → Elon → Dario. Pacing: 1-2 per hour, watch read receipts, escalate only on positive signal.
+
+### New skills saved to memory (this session)
+
+- `feedback_phase_c_outreach.md` — Build-in-public launch playbook (T+0 to T+72h cadence + community-thread-reply > broadcast + pace Tier-1 DMs)
+- `feedback_lablab_discord_automod.md` — lablab Discord auto-mod 3+ URL spam threshold + workaround
+- `feedback_hf_space_iframe_links.md` — HF Space Gradio iframe sandbox breaks markdown links; fix with gr.HTML + `<a target="_blank" rel="noopener noreferrer">`
+
+### Public state at end of Day 4 (night)
+
+- All major artifacts public and submitted
+- 6 of ~14 Phase C platforms posted with measured cadence
+- AMD Forum thread #505 = highest-leverage single act, awaiting Hakob_Arzumanyan re-engagement signal
+- Tier-1 outreach queued, paced sequentially starting Day 5
+
+---
+
+## 2026-05-07 (Day 5) — Plan re-sequenced + first inbound traction signals
+
+### Why a new plan was written
+
+Original OUTREACH_PLAYBOOK assumed 72h of continuous focus from T+0. Reality at T+30h: PlantCLEF 2026 Kaggle parallel deadline (2026-05-08 02:59 Tashkent), missed HN-Tuesday window, lablab Discord still muted. Original cadence collapsed.
+
+New plan saved at `/Users/sardorrazikov1/.claude/plans/while-we-wait-lets-spicy-wombat.md`:
+- Phase 1 (now → T+55h): light touch only (X tweet #11 self-reply with traction metrics), then silent during PlantCLEF crunch
+- Phase 2 (T+55h → T+101h): sleep, README polish, **Show HN at Friday 2026-05-08 17:00 Tashkent** (= 09:00 EDT, 2nd-best HN window after Tuesday), Reddit r/LocalLLaMA, **Tier-1 DM batch #1 at T+85h** (Junyang Lin → Karpathy → Lisa Su via LinkedIn, sequential 2h gaps), Phoronix tip, 3 safe Discords (skip lablab Discord — still muted)
+- Phase 3 (T+96h → T+1week): decision-gated, see 3 measurable checkpoints in plan file
+
+OUTREACH_PLAYBOOK.md was edited inline to add HOLD/GO/SKIP markers per Tier-1 entry (prevents accidental fire-DMs-tonight while sleep-deprived).
+
+### Inbound traction signals (T+30h → T+38h)
+
+- **lablab.ai (15,381 LinkedIn followers, OFFICIAL account)** publicly commented on Sardor's launch post: "REPOMIND isn't just a hackathon project - it's a serious technical argument for a $30B market that SaaS AI coding tools legally cannot touch... **One of the standout submissions of this hackathon. Sardor, the community needs to see this!**" — strongest tier of lablab comment (with explicit amplification ask)
+- **Stephen Kimoi (lablab DevRel)**: "All the best 🙌 Sardor Razikov" — same Stephen who lifted Sardor's Discord mute twice; real ally
+- **Kevin Brkal (3rd-degree, marketing builder)**: "this is legitimately impressive work under those constraints"
+- **X comment from anonymous user** asking technical question: "MI300X for repo-scale at $4 of compute hits a real gap. What inference framework underneath - vLLM, SGLang, or custom?"
+
+Sardor replied to all 4 (lablab.ai with thoughtful "Zenodo preprint coming" hook, Kevin warmly, Stephen with Discord-unmute gratitude, X comment with vLLM 0.17.1 + ROCm 7.2 + AITER A/B + benchmarks repro link).
+
+### Strategic implications
+
+- **Tier-1 DM HOLD gate partially open** — lablab official endorsement = traction signal for Friday HN opener and DM social proof
+- **HN Friday opener** can lead with lablab quote: "Lablab.ai (the hackathon host) just publicly called this 'one of the standout submissions ... the community needs to see this' — sharing here for the HN crowd."
+- **Junyang/Karpathy/Lisa Su DMs** can use lablab quote as warm-context opener (3-5× higher reply rate than cold)
+- Must **calibrate**: lablab.ai gives substantive comments to multiple good projects, not just standout ones (saw evidence on Anum's project, AeroFlux, etc.). REPOMIND comment is in the strongest tier but not cosmically unique. Use as +1 amplification, not as singling-out.
+
+### Memory updates from this day
+
+5 new feedback files saved:
+- `feedback_kaggle_new_token_system.md` — Kaggle deprecated kaggle.json; use `~/.kaggle/access_token` (KGAT_*) instead. Old format = silent 401.
+- `feedback_macro_f1_per_sample.md` — In multi-label F1-per-sample with sparse GT, precision >> recall. Validate prediction count distribution before submit. (PlantCLEF v2 validated this at -0.077 F1 cost.)
+- `feedback_amd_droplet_scratch_wipe.md` — DigitalOcean MI300X 1-Click /scratch (5 TB) wipes on reboot. Plan re-setup each session.
+- `feedback_csv_ensemble_diminishing_returns.md` — CSV blending of similar pipelines (same backbone) doesn't improve F1. Real diversity = different models or score-level fusion of cached scores.
+- `feedback_lablab_endorsement_calibration.md` — Lablab.ai LinkedIn comments substantive but not unique. +1 amplification voice, not magic ticket.
+
+`competition_repomind.md` and `competition_plantclef2026.md` memory entries updated with current state.
+
+### Public state at end of Day 5 (early morning Tashkent, before sleep)
+
+- ✅ X tweet #11 self-reply posted with 24h metrics + Zenodo preprint plant
+- ✅ X reply to vLLM technical question with version specifics + AITER A/B
+- ✅ LinkedIn replies to lablab.ai + Stephen Kimoi + Kevin Brkal
+- ✅ X main thread pinned to profile
+- ✅ Calendar reminder set for 2026-05-08 14:00 Tashkent (REPOMIND HN re-launch prep)
+- ✅ AMD MI300X droplet destroyed (saving ~$12 of credits during 6h sleep)
+- 🛌 Sleep window 2026-05-07 ~02:30 Tashkent → ~08:30 Tashkent
+- 🌅 Tomorrow morning: PlantCLEF 5/5 fresh submits sprint until 02:59 Tashkent deadline, then REPOMIND HN at 17:00 Tashkent
+
+### What's next (Day 6, 2026-05-07/08)
+
+1. ~05:00 Tashkent: PlantCLEF Kaggle reset → fresh 5 submits available
+2. Re-launch MI300X droplet (~10 min setup, /scratch wiped from yesterday)
+3. Re-run v3 inference (~30 min, regenerates cache for instant threshold sweeps)
+4. Run v4 (only_classifier model variant, ~17 min, real architectural diversity)
+5. Recompute v3 with looser threshold from cache (~1 min) — multiple variants
+6. Build score-level ensembles using cached pipeline outputs (NOT CSV-level)
+7. Submit best 3-5 by 02:00 May 8 Tashkent
+8. Final 5 selection at 02:59 deadline
+9. 14:00 Tashkent: README polish for HN
+10. 17:00 Tashkent: Show HN goes live with lablab quote opener
+11. Sequential Tier-1 DM batch #1 at 17:00 + 2h + 4h (Junyang → Karpathy → Lisa Su)
+
+---
+
+## 2026-05-08 (Day 6) — Hakob 3rd reply + PlantCLEF finals locked + CITADEL pivot
+
+### Hakob 3rd reply on AMD Forum #505 (~00:00 Tashkent)
+
+After Sardor's data-rich reply on 2026-05-06 with verified stress-test numbers, Hakob_Arzumanyan returned for the third time in 2 days:
+
+> "Hi, thanks alot for your answer, i appreciate the time you have put into getting those numbers out. These totally answer my questions. I am amazed to see 31/31 success at 8k. Also on full 24-cell matrix it is pretty good results, thanks alot for sharing with us."
+
+Tone: warm, satisfied, natural close-out. Specific praise for 8K all-pass and 24-cell matrix. AMD relationship visibly warming.
+
+### Sardor's 4th-turn reply posted ~01:00 Tashkent
+
+Crafted to: (a) acknowledge Hakob's specific points (8K all-pass, marginal cells 32K+), (b) demonstrate research integrity by flagging where rigor is still owed, (c) seed next direction without ask, (d) plant ECB Zenodo DOI as authority signal.
+
+Reply text posted verbatim:
+```
+Thanks Hakob — glad the data closed the loop. The 8K all-pass was the
+cleanest signal; on the 24-cell matrix the marginal cells (32K+ at high
+concurrency) are where I want to do more rigorous evaluation next.
+
+Next direction I'm exploring: public benchmarking on MI300X comparing
+frontier models (Gemma 4, Llama 4, Qwen3 family) on calibration and
+multilingual fairness, using the methodology I published at
+https://doi.org/10.5281/zenodo.19791329 (Epistemic Curie Benchmark).
+MI300X 192GB makes single-node multi-model comparison tractable in a
+way H100 80GB can't — that's the angle I find most useful for the
+ROCm ecosystem story.
+
+Will share concrete results when ready.
+
+— Sardor
+```
+
+This reply functions as **soft preview of CITADEL** without naming it. When CITADEL launches ~2026-05-19, Hakob will not be surprised — he's already seen the direction signaled.
+
+### PlantCLEF 2026 finals locked (~01:00 Tashkent, T-2h to deadline)
+
+After exhausted reality check at 00:30+ Tashkent, decision made: do NOT relaunch droplet for Day 2 sprint. Lock finals from Day 1 results:
+
+✅ submission_v3.csv (0.31580 public) — best, anchor
+✅ submission_v1.csv (0.30305 public) — architectural diversity hedge
+
+Reasoning: 2.5h budget to deadline insufficient for safe MI300X relaunch + reliable submit cycle; sleep-deprived founder (30+h) = poor quality decisions; v3 strongest already verified; CSV ensembles validated as diminishing returns Day 1 (E3 0.305 < v3 0.315). Per `feedback_kaggle_imbalance.md`: 11% public sample = high private LB volatility, v1+v3 hedge mathematically sound.
+
+Public rank at deadline: #34. Private LB reveal expected ~05:00-08:00 Tashkent on 2026-05-08.
+
+### Gemma 4 Good Hackathon strategy session (~22:00 May 7 → 01:30 May 8)
+
+3.5h strategic planning session for next hackathon (Gemma 4 Good, deadline 2026-05-19, $200K prize pool). Generated 35+ project concepts across multiple iterations. Final concept selected: **CITADEL** — open eval infrastructure extending ECB methodology to canonical multi-model, multi-task, multi-lingual, multi-hardware framework.
+
+Key strategic insights captured to memory:
+
+1. **Positive-sum infrastructure beats zero-sum competition** for billion-dollar acquirer trigger (`feedback_positive_sum_acquirer_pattern.md`). Stripe/Plaid/Cloudflare model: every player benefits, none threatened, multiple acquirers compete defensively. Mapped 15 acquirer scenarios for CITADEL: HuggingFace, Scale AI, AMD, NVIDIA, Anthropic, Google DeepMind, OpenAI, Microsoft, Meta, Cohere, Datadog, Mistral, Snowflake, Databricks, Oracle. Realistic ceiling 12-18 months: $500M-2B acquihire.
+
+2. **Brainstorm diminishing returns past ~30 concepts** (`feedback_brainstorm_diminishing_returns.md`). Top-3 candidates emerged after round 2; rounds 3-4 produced reskins that didn't beat top-3. User asked verbatim brainstorm prompt 4 times — wingman should detect this and redirect to decision/criteria, not generate round 5.
+
+3. **Solo + 11d hackathon submission ≠ $1B trigger.** Realistic max from hackathon alone: $5-50M acquihire signal in 30-90 days. $500M+ requires 12-18 months focused post-hackathon execution. Don't promise unrealistic timelines; design for trajectory.
+
+4. **AMD compounding strategy:** Hakob warming + AMD Forum thread momentum + soft CITADEL preview seeded = AMD CES 2027 case study mention path = high probability. Lisa Su keynote-quotable: "indie founder built canonical AI eval on MI300X."
+
+### Memory writes (this day)
+
+New files:
+- `competition_gemma4good.md` — full CITADEL strategic playbook (12-layer architecture vision, 11-day MVP scope, 15 acquirer scenarios, hero video script outline, AMD compounding plan, backup pool of 35+ alternatives)
+- `feedback_positive_sum_acquirer_pattern.md` — Stripe/Plaid/Cloudflare neutral infrastructure framework
+- `feedback_brainstorm_diminishing_returns.md` — wingman detection + redirect rule
+
+Updates:
+- `competition_repomind.md` — Day 6 status, Hakob 3rd reply context, CITADEL pivot for Phase D
+- `competition_plantclef2026.md` — Day 2 superseded (no relaunch), finals locked, awaiting private LB
+- `MEMORY.md` — index updated with 3 new entries
+
+### Tonight (2026-05-08 ~01:30 Tashkent)
+
+Sleep window opens. PlantCLEF deadline auto-passes 02:59 Tashkent (no action needed). Wake target: ~07:30-08:00 Tashkent.
+
+### Tomorrow (2026-05-08 8 AM onward)
+
+| Time Tashkent | Activity |
+|---|---|
+| 07:30-08:00 | Wake |
+| 08:00-09:00 | Coffee + check PlantCLEF private LB |
+| 09:00-10:00 | Pin Hakob reply timing (post Hakob reply at 17:00 alongside HN — already posted, this is monitoring) |
+| 10:00-13:00 | README polish + HN copy final pass + draft 5 likely HN comment responses |
+| 13:00-16:30 | Light recovery + final HN prep |
+| **17:00** | **REPOMIND Show HN goes LIVE** with lablab quote opener |
+| 17:00-21:00 | Founder-on-keyboard for HN — every comment <5 min response |
+| 21:00 | Sleep |
+
+### What's next (Day 7+, 2026-05-09 onward)
+
+1. 2026-05-09 morning: assess HN outcome (Gate 2 per spicy-wombat plan)
+2. 2026-05-09 ~09:00 Tashkent: Tier-1 DM batch #1 (Junyang Lin → Karpathy → Lisa Su, sequential 2h gaps)
+3. 2026-05-09 afternoon: REPOMIND aftermath monitoring + light CITADEL architecture sketch (paper only, no code)
+4. 2026-05-10: CITADEL Day 1 of 11-day build — repo setup, AMD MI300X compute access, architecture commit
+5. 2026-05-11 to 2026-05-19: CITADEL execution per day-by-day plan in `competition_gemma4good.md`
+6. 2026-05-19 04:59 GMT+5: CITADEL submit
+
+---
+
+## 2026-05-08 17:00-17:50 Tashkent — HN launch outcome
+
+### Submission landed but flagged
+
+**HN URL:** https://news.ycombinator.com/item?id=48061853
+
+Show HN was restricted ("temporarily restricting Show HNs because of a massive influx") for new account `sardor_r1`. Pivoted to regular submission — accepted.
+
+**Title posted:** "Repomind – 256K context coding agent on a single AMD MI300X (FP8)"
+
+**First comment (T+0)** included lablab endorsement quote + bullet-stat walls + "happy to answer" closer. Got **[flagged]** within 30 minutes. Edit to cleaner technical version did not remove flag (HN flags are sticky once applied).
+
+**Second comment (T+44 min)** with technical AITER regression question — clean, not flagged, no organic responses yet.
+
+**Final state at T+48 min:** 2 points, 2 comments (both Sardor's), buried on page 2-3 of /newest. **Front page not reached.**
+
+### Channel post-mortem
+
+| Channel | Result | Time invested |
+|---|---|---|
+| HN | ⚠️ Flagged, 2 points | 5 min submit + 10 min monitoring |
+| Reddit r/LocalLLaMA | 💀 Auto-filtered (new account + multi-link) | 10 min including modmail consideration |
+| AMD Discord #project-showcase | 💀 Role-gated (AI Developer Program role required, multi-day approval) | 5 min navigation |
+| AMD Discord #ai-dev-general | 💀 Same role gate | 1 min |
+| Lablab Discord | 💀 Server-wide mute (5d 4h remaining) | 0 min (skipped per memory) |
+| HF Discord, Anthropic Builders | 💀 Not pre-joined; can't post in launch window | 0 min (skipped) |
+| X (own pinned thread reply) | ✅ Posted | 1 min |
+| LinkedIn (under launch post) | ✅ Posted | 1 min |
+
+**Net:** 3 channels truly active (HN + X + LinkedIn), 5 channels blocked, ~30 min total launch window spent including channel-blocked exploration time.
+
+### PlantCLEF final result (parallel)
+
+Private LB: **#33 of 371** (improved 1 position from #34 public). Methodology (v3 vegetation mask + KMeans cluster priors) validated; no shake-up.
+
+### Lessons saved to memory
+
+Two new feedback files:
+- `feedback_hn_launch_traps.md` — name-dropping endorsements, bullet-stat walls, founder bio openers, "happy to answer" closers all trigger HN flags. Technical question opener + bug-story angle + in-narrative numbers survive.
+- `feedback_launch_channel_constraints.md` — new accounts blocked on Reddit (auto-filter), Discord (role-gates), HN (low karma). Pre-audit channels 1+ week before launch; expect 50% of cold channels to block first post.
+
+Updates:
+- `competition_repomind.md` — Day 6 final state (HN flagged, plan B for Tuesday)
+- `competition_plantclef2026.md` — private LB #33 final, competition closed
+- `MEMORY.md` — index with 2 new feedback entries
+
+### Plan B — Tuesday 2026-05-12 19:00 Tashkent (09:00 EDT)
+
+HN re-submission with bug-story angle:
+- New title: "AITER FP8 attention backend regression on MI300X: 2-4x throughput, 137/144 broken outputs"
+- Same URL: github.com/SRKRZ23/repomind
+- Pure technical bug-story = HN-bait, no marketing tone
+- Tuesday 09:00 EDT = best HN window of the week
+
+### Sardor's energy state
+
+After this launch attempt + 30+h sleep deprivation prior days + no front-page outcome — high risk of burnout if pushes into CITADEL build tonight. Memory plan is: rest tonight, recovery Saturday, Tier-1 DMs Saturday afternoon (Junyang/Karpathy/Lisa Su), Tuesday HN Plan B, Sunday-Monday architecture sketch on paper, Wednesday-following Sunday CITADEL code build.
+
+---
+
+## Project rename: PROMETHEUS → CITADEL (2026-05-08)
+
+The next-hackathon concept (open eval infrastructure for AI ecosystem, extension of ECB methodology) was named **PROMETHEUS** throughout 2026-05-07/08 brainstorm sessions. On 2026-05-08, Sardor renamed it to **CITADEL** — concept unchanged, name preferred.
+
+All references in this file (above) were retroactively updated to use **CITADEL** in place of **PROMETHEUS**.
+
+A separate, earlier-explored concept called "CITADEL ULTRA" (12-layer sovereign-AI-deployment infrastructure) was rejected during brainstorm and is no longer active. The CITADEL name now refers exclusively to the eval-framework project being built for Gemma 4 Good Hackathon.
+
+See `competition_gemma4good.md` for full CITADEL strategic playbook.
+
+---
+
+## 2026-05-08 ~18:00 Tashkent — CITADEL scope decision: full 12-layer unified vision
+
+After memory rename PROMETHEUS → CITADEL, Sardor made strategic decision: **merge eval-framework concept with original sovereign-deployment 12-layer vision**. Ship all 12 layers fully built, tested, benchmarked.
+
+Combined positioning: **"open infrastructure for AI ecosystem trust — deploy anywhere, benchmark transparently, audit cryptographically, prove compliance."**
+
+12-layer architecture:
+- Layers 0-1: Network/security + hardware abstraction (foundation)
+- Layers 2-4: Task suites + model adapters + metrics (eval core)
+- Layers 5-7: Eval infrastructure + dashboard + cryptographic audit (eval shipping surface)
+- Layers 8-9: Multi-cloud arbitrage + federated learning (deployment expansion)
+- Layers 10-12: Regulatory translator + intelligent router + AI marketplace (ecosystem)
+
+11-day shipping plan (per `competition_gemma4good.md`):
+- Layers 0-7 production-grade with integration tests
+- Layers 8-12 stub-quality with reference implementations / detailed RFCs
+- Hero video showcases full vision, demos Layers 1-7 working
+
+Acquihire ceiling lifted: $500M-2B (eval-only) → $1-3B realistic / $5B moonshot (full 12-layer vision).
+
+Sardor confirmed: build, test, benchmark all 12 layers — full vision, not narrow MVP.
+
+After this scope decision, Sardor announced new fast task to follow (TBD).

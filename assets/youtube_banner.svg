@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- YouTube channel banner — 2048x1152. Safe area for all devices is the central 1546x423 strip.
+     All key content (logo + wordmark + tagline) lives inside that strip. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 1152" width="2048" height="1152">
+  <defs>
+    <style>
+      .brand { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+      .body  { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; }
+      .mono  { font-family: "SF Mono", Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <!-- Background black -->
+  <rect width="2048" height="1152" fill="#000000"/>
+
+  <!-- Red rails left and right (decorative, off-safe-zone) -->
+  <rect x="0"    y="0" width="22" height="1152" fill="#ED1C24"/>
+  <rect x="2026" y="0" width="22" height="1152" fill="#ED1C24"/>
+
+  <!-- ==== SAFE ZONE: x=251..1797 (1546 wide), y=365..788 (423 tall) ==== -->
+
+  <!-- DAG logo mark left of wordmark -->
+  <g transform="translate(360, 415)">
+    <rect width="280" height="280" fill="#FFFFFF" rx="40"/>
+    <line x1="140" y1="92"  x2="62"  y2="190" stroke="#000000" stroke-width="8" stroke-linecap="round"/>
+    <line x1="140" y1="92"  x2="140" y2="190" stroke="#000000" stroke-width="8" stroke-linecap="round"/>
+    <line x1="140" y1="92"  x2="218" y2="190" stroke="#ED1C24" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="140" cy="92"  r="26" fill="#000000"/>
+    <circle cx="62"  cy="190" r="18" fill="#000000"/>
+    <circle cx="140" cy="190" r="18" fill="#000000"/>
+    <circle cx="218" cy="190" r="22" fill="#ED1C24"/>
+  </g>
+
+  <!-- REPOMIND wordmark -->
+  <text x="700" y="600" class="brand" font-size="200" fill="#FFFFFF" letter-spacing="-7">REPOMIND</text>
+
+  <!-- Tagline below -->
+  <text x="700" y="660" class="body" font-weight="500" font-size="32" fill="#FFFFFF">Open-source repo-scale coding agent on a single AMD MI300X.</text>
+  <text x="700" y="700" class="body" font-weight="400" font-size="24" fill="#999999">256K context · FP8 · MIT · self-hosted · production-verified</text>
+
+  <!-- KPI strip below tagline (still in safe zone) -->
+  <g transform="translate(700, 740)">
+    <text x="0"   y="30" class="brand" font-size="36" fill="#ED1C24">62</text>
+    <text x="120" y="30" class="brand" font-size="36" fill="#ED1C24">·</text>
+    <text x="160" y="30" class="brand" font-size="36" fill="#ED1C24">6.49×</text>
+    <text x="320" y="30" class="brand" font-size="36" fill="#ED1C24">·</text>
+    <text x="360" y="30" class="brand" font-size="36" fill="#ED1C24">9/9</text>
+    <text x="460" y="30" class="brand" font-size="36" fill="#ED1C24">·</text>
+    <text x="500" y="30" class="brand" font-size="36" fill="#ED1C24">3/3</text>
+    <text x="600" y="30" class="brand" font-size="36" fill="#ED1C24">·</text>
+    <text x="640" y="30" class="brand" font-size="36" fill="#ED1C24">MIT</text>
+    <text x="0"   y="60" class="body" font-weight="500" font-size="16" fill="#999999">data points · faster on 8K vs 32K · repo Q&amp;A · needle pass at 200K · open source</text>
+  </g>
+
+  <!-- ==== Outside safe zone (TV/mobile crop OK) ==== -->
+
+  <!-- Top label -->
+  <text x="1024" y="160" text-anchor="middle" class="body" font-weight="700" font-size="22" letter-spacing="6" fill="#ED1C24">REPOMIND  ·  AMD DEVELOPER HACKATHON 2026</text>
+
+  <!-- Bottom socials -->
+  <text x="1024" y="980" text-anchor="middle" class="mono" font-weight="600" font-size="20" fill="#FFFFFF">github.com/SRKRZ23/repomind  ·  huggingface.co/spaces/lablab-ai-amd-developer-hackathon/repomind</text>
+  <text x="1024" y="1020" text-anchor="middle" class="body" font-weight="500" font-size="18" fill="#999999">Sardor Razikov  ·  Tashkent  ·  Solo. 6.5 days. $4.12 of compute.</text>
+</svg>

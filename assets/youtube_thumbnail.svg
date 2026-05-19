@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- YouTube video thumbnail — 1280x720. Big readable wordmark + 1 punch stat.
+     YouTube renders thumbnails very small (210×118 in feed) — text must be HUGE. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <style>
+      .brand { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+      .body  { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Black background -->
+  <rect width="1280" height="720" fill="#000000"/>
+
+  <!-- Red accent bar top -->
+  <rect x="0" y="0" width="1280" height="14" fill="#ED1C24"/>
+
+  <!-- Top-right hackathon badge -->
+  <g transform="translate(900, 60)">
+    <rect width="340" height="56" fill="#ED1C24" rx="8"/>
+    <text x="170" y="38" text-anchor="middle" class="body" font-weight="700" font-size="22" letter-spacing="2" fill="#FFFFFF">AMD HACKATHON 2026</text>
+  </g>
+
+  <!-- DAG logo top-left -->
+  <g transform="translate(60, 60)">
+    <rect width="140" height="140" fill="#FFFFFF" rx="22"/>
+    <line x1="70" y1="44" x2="30" y2="100" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
+    <line x1="70" y1="44" x2="70" y2="100" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
+    <line x1="70" y1="44" x2="110" y2="100" stroke="#ED1C24" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="70"  cy="44"  r="14" fill="#000000"/>
+    <circle cx="30"  cy="100" r="10" fill="#000000"/>
+    <circle cx="70"  cy="100" r="10" fill="#000000"/>
+    <circle cx="110" cy="100" r="13" fill="#ED1C24"/>
+  </g>
+
+  <!-- HUGE wordmark — center -->
+  <text x="640" y="370" text-anchor="middle" class="brand" font-size="220" fill="#FFFFFF" letter-spacing="-8">REPOMIND</text>
+
+  <!-- The punch stat — biggest, red -->
+  <text x="640" y="500" text-anchor="middle" class="brand" font-size="96" fill="#ED1C24" letter-spacing="-2">256K context · FP8</text>
+
+  <!-- Sub-line -->
+  <text x="640" y="560" text-anchor="middle" class="body" font-weight="600" font-size="40" fill="#FFFFFF">on a single AMD MI300X</text>
+
+  <!-- Bottom strip -->
+  <rect x="0" y="640" width="1280" height="80" fill="#0a0a0a"/>
+  <text x="640" y="690" text-anchor="middle" class="body" font-weight="700" font-size="28" letter-spacing="3" fill="#FFFFFF">OPEN SOURCE  ·  MIT  ·  SELF-HOSTED  ·  github.com/SRKRZ23/repomind</text>
+</svg>
