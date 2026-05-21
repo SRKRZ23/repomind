@@ -1,0 +1,250 @@
+/* REPOMIND brand stylesheet — matches slide deck palette + typography
+   Source palette from /slides/svg_slides/*.svg:
+     primary text  #000000
+     accent red    #ED1C24  (AMD-style)
+     secondary     #666666
+     divider       #E5E5E5
+     bg            #FFFFFF
+     dark gray     #444444
+     very light    #FAFAFA, #F5F5F5
+     light red     #FFE5E5
+   Fonts: Helvetica Neue / Helvetica / Arial sans-serif (brand + body),
+          Menlo / Monaco / Courier New monospace (code)
+*/
+
+@page {
+  size: A4;
+  margin: 22mm 20mm 22mm 20mm;
+  background: #FFFFFF;
+  @top-left {
+    content: "REPOMIND — Methodology Preprint";
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 9pt;
+    color: #666666;
+    letter-spacing: 0.5px;
+  }
+  @top-right {
+    content: "Razikov · 2026 · MIT License · v1.2 (URL-verified)";
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 9pt;
+    color: #666666;
+    letter-spacing: 0.5px;
+  }
+  @bottom-center {
+    content: counter(page) " / " counter(pages);
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 9pt;
+    color: #666666;
+  }
+}
+
+/* Left red accent stripe — mirrors slide-08 visual treatment */
+@page :left  { background: #FFFFFF; border-left: 6pt solid #ED1C24; }
+@page :right { background: #FFFFFF; border-left: 6pt solid #ED1C24; }
+@page :first { background: #FFFFFF; border-left: 6pt solid #ED1C24; }
+
+html { background: #FFFFFF; }
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.55;
+  color: #000000;
+  background: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Document title */
+h1 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  font-size: 26pt;
+  line-height: 1.15;
+  letter-spacing: -0.5pt;
+  color: #000000;
+  margin: 0 0 14pt 0;
+  padding-bottom: 10pt;
+  border-bottom: 2pt solid #ED1C24;
+  page-break-after: avoid;
+}
+
+/* H2 — section openers (e.g., Abstract, Introduction, Methodology) */
+h2 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  font-size: 18pt;
+  line-height: 1.2;
+  color: #ED1C24;
+  letter-spacing: -0.3pt;
+  margin: 24pt 0 10pt 0;
+  padding-bottom: 4pt;
+  border-bottom: 1pt solid #E5E5E5;
+  page-break-after: avoid;
+}
+
+/* H3 — subsections */
+h3 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 13pt;
+  color: #000000;
+  margin: 18pt 0 6pt 0;
+  letter-spacing: -0.2pt;
+  page-break-after: avoid;
+}
+
+/* H4 + */
+h4 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 11pt;
+  color: #444444;
+  margin: 14pt 0 4pt 0;
+  text-transform: uppercase;
+  letter-spacing: 1.5pt;
+}
+
+/* Paragraphs */
+p {
+  margin: 0 0 9pt 0;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+/* Strong/bold = subtle accent */
+strong {
+  font-weight: 800;
+  color: #000000;
+}
+
+/* Emphasis */
+em {
+  font-style: italic;
+  color: #444444;
+}
+
+/* Lists */
+ul, ol {
+  margin: 0 0 9pt 0;
+  padding-left: 18pt;
+}
+
+ul li, ol li {
+  margin-bottom: 3pt;
+  line-height: 1.5;
+}
+
+ul li::marker {
+  color: #ED1C24;
+}
+
+/* Inline code */
+code {
+  font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+  font-size: 9pt;
+  color: #ED1C24;
+  background: #FAFAFA;
+  padding: 1pt 4pt;
+  border-radius: 2pt;
+  border: 0.5pt solid #E5E5E5;
+}
+
+/* Code blocks */
+pre {
+  font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+  font-size: 8.5pt;
+  line-height: 1.5;
+  background: #FAFAFA;
+  border: 1pt solid #E5E5E5;
+  border-left: 3pt solid #ED1C24;
+  padding: 10pt 12pt;
+  margin: 8pt 0;
+  overflow-x: auto;
+  page-break-inside: avoid;
+  color: #000000;
+}
+
+pre code {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: #000000;
+}
+
+/* Blockquotes — used for verbatim Q/A outputs */
+blockquote {
+  border-left: 3pt solid #ED1C24;
+  background: #FFE5E5;
+  margin: 8pt 0;
+  padding: 8pt 12pt;
+  font-style: normal;
+  font-size: 10pt;
+  color: #000000;
+  page-break-inside: avoid;
+}
+
+blockquote p {
+  margin: 4pt 0;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10pt 0;
+  font-size: 9.5pt;
+  page-break-inside: avoid;
+}
+
+th {
+  background: #ED1C24;
+  color: #FFFFFF;
+  font-weight: 800;
+  text-align: left;
+  padding: 6pt 8pt;
+  border: 1pt solid #ED1C24;
+  letter-spacing: 0.2pt;
+}
+
+td {
+  padding: 5pt 8pt;
+  border-bottom: 0.5pt solid #E5E5E5;
+  vertical-align: top;
+  color: #000000;
+}
+
+tr:nth-child(even) td {
+  background: #FAFAFA;
+}
+
+tr:nth-child(odd) td {
+  background: #FFFFFF;
+}
+
+/* Horizontal rules */
+hr {
+  border: none;
+  border-top: 1pt solid #E5E5E5;
+  margin: 18pt 0;
+}
+
+/* Links */
+a {
+  color: #ED1C24;
+  text-decoration: none;
+  border-bottom: 0.5pt solid #ED1C24;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  display: block;
+  margin: 8pt auto;
+  page-break-inside: avoid;
+}
+
+/* Avoid orphan headings */
+h1, h2, h3, h4 { page-break-after: avoid; }
+table, pre, blockquote, img { page-break-inside: avoid; }

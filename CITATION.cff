@@ -1,0 +1,92 @@
+# YAML 1.2
+# Citation File Format — https://citation-file-format.github.io/
+# This file enables GitHub's "Cite this repository" widget and is consumed by Zotero,
+# Mendeley, EndNote, and other reference managers.
+
+cff-version: 1.2.0
+message: "If you use REPOMIND in your research or production deployment, please cite this methodology preprint."
+title: "REPOMIND: Reproducing 256K-context Repository-Scale Code Understanding on a Single AMD MI300X with FP8 KV Cache"
+abstract: >-
+  REPOMIND is an open-source repository-scale coding agent that operates on a single
+  AMD MI300X (192 GB HBM3) at 256K context length using Qwen3-Coder-Next-FP8.
+  This preprint reports 62 measured data points across 124 minutes of MI300X stress
+  testing, including a per-cell AITER attention backend regression report on the
+  AITER × FP8 KV cache configuration. Total session cost: $4.12 of compute on AMD
+  Developer Cloud. MIT-licensed code; CC-BY-4.0 preprint.
+type: article
+authors:
+  - given-names: Sardor
+    family-names: Razikov
+    email: razikovsardor1@gmail.com
+    affiliation: "Independent ML Engineer, Tashkent, Uzbekistan"
+    orcid: "https://orcid.org/0009-0007-0731-4247"
+date-released: 2026-05-21
+version: "1.2"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20330468
+    description: "REPOMIND methodology preprint v1.2 on Zenodo (CC-BY-4.0)"
+  - type: doi
+    value: 10.5281/zenodo.20330467
+    description: "All-versions DOI (resolves to latest version)"
+  - type: url
+    value: "https://github.com/SRKRZ23/repomind"
+    description: "REPOMIND source code repository on GitHub (MIT)"
+  - type: url
+    value: "https://lablab.ai/ai-hackathons/amd-developer/repomind/repomind"
+    description: "AMD Developer Hackathon 2026 lablab.ai submission page"
+url: "https://doi.org/10.5281/zenodo.20330468"
+repository-code: "https://github.com/SRKRZ23/repomind"
+license: MIT
+license-url: "https://github.com/SRKRZ23/repomind/blob/main/LICENSE"
+keywords:
+  - AMD MI300X
+  - ROCm 7.2
+  - Qwen3-Coder-Next
+  - FP8 KV cache
+  - vLLM
+  - AITER attention backend
+  - repository-scale code understanding
+  - 256K context
+  - on-premises LLM
+  - compliance-locked AI coding
+preferred-citation:
+  type: article
+  title: "REPOMIND: Reproducing 256K-context Repository-Scale Code Understanding on a Single AMD MI300X with FP8 KV Cache"
+  authors:
+    - given-names: Sardor
+      family-names: Razikov
+      orcid: "https://orcid.org/0009-0007-0731-4247"
+  year: 2026
+  month: 5
+  day: 21
+  publisher:
+    name: Zenodo
+  doi: 10.5281/zenodo.20330468
+  url: "https://doi.org/10.5281/zenodo.20330468"
+  version: "1.2"
+  abstract: >-
+    REPOMIND is an open-source repository-scale coding agent verified on a single
+    AMD MI300X at 256K context with FP8 KV cache. This preprint includes an open
+    AITER attention backend regression report on the specific FP8 KV cache
+    configuration, with reproducible scripts and per-cell evidence.
+  conference:
+    name: "AMD Developer Hackathon 2026 (lablab.ai)"
+    city: "Online"
+    date-start: 2026-05-04
+    date-end: 2026-05-11
+references:
+  - type: software
+    title: "REPOMIND source code"
+    authors:
+      - given-names: Sardor
+        family-names: Razikov
+    repository-code: "https://github.com/SRKRZ23/repomind"
+    license: MIT
+  - type: generic
+    title: "ECB — Phase Transitions in LLM Epistemic Autonomy: The Epistemic Curie Temperature"
+    authors:
+      - given-names: Sardor
+        family-names: Razikov
+    doi: 10.5281/zenodo.19791329
+    notes: "Author's prior open-access Zenodo preprint"

@@ -1,12 +1,19 @@
 # REPOMIND
 
+![REPOMIND — Methodology Preprint Banner](./repomind_banner.png)
+
 > Open-source repo-scale coding agent for self-hosted use. Ingest an entire git repo (256K tokens), reason across it with tools — on a single AMD MI300X.
 
+> 📄 **Methodology preprint (peer-archived):** Razikov, S. (2026). *REPOMIND: Reproducing 256K-context Repository-Scale Code Understanding on a Single AMD MI300X with FP8 KV Cache* (v1.2). AMD Developer Hackathon 2026 (lablab.ai), Online. Zenodo. **DOI: [10.5281/zenodo.20330468](https://doi.org/10.5281/zenodo.20330468)** · CC-BY-4.0 · Indexed in OpenAIRE
+
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20330468-red.svg)](https://doi.org/10.5281/zenodo.20330468)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![ROCm 7](https://img.shields.io/badge/ROCm-7.0-red)](https://rocm.docs.amd.com/)
 [![vLLM](https://img.shields.io/badge/vLLM-Day0_Qwen3_Coder-blue)](https://www.amd.com/en/developer/resources/technical-articles/2026/day-0-support-for-qwen3-coder-next-on-amd-instinct-gpus.html)
 [![AMD Hackathon](https://img.shields.io/badge/AMD_Developer_Hackathon-2026-orange)](https://lablab.ai/ai-hackathons/amd-developer)
 [![HF Space](https://img.shields.io/badge/🤗_Hugging_Face-Space-blue)](https://huggingface.co/spaces/lablab-ai-amd-developer-hackathon/repomind)
+
+📄 **Methodology preprint:** [REPOMIND on Zenodo (CC-BY-4.0, 23 pages, peer-archived)](https://doi.org/10.5281/zenodo.20330468) — full benchmarks, AITER backend regression report, reproducibility instructions, and honest limitations. Cite as: Razikov, S. (2026). *REPOMIND.* Zenodo. https://doi.org/10.5281/zenodo.20330468
 
 ## What this is
 
@@ -403,3 +410,33 @@ hiring, acquiring, or partnering can reach out at the addresses below.
 | lablab | [lablab.ai/u/@Sardor_R](https://lablab.ai/u/@Sardor_R) |
 
 Built for the [AMD Developer Hackathon 2026](https://lablab.ai/ai-hackathons/amd-developer).
+
+## Citation
+
+If this work is useful in your research or production deployment, please cite the Zenodo methodology preprint:
+
+**APA:**
+> Razikov, S. (2026). *REPOMIND: Reproducing 256K-context Repository-Scale Code Understanding on a Single AMD MI300X with FP8 KV Cache* (v1.2). AMD Developer Hackathon 2026 (lablab.ai), Online. Zenodo. https://doi.org/10.5281/zenodo.20330468
+
+**BibTeX:**
+```bibtex
+@misc{razikov2026repomind,
+  author       = {Razikov, Sardor},
+  title        = {{REPOMIND}: Reproducing 256{K}-context Repository-Scale Code Understanding on a Single {AMD} {MI300X} with {FP8} {KV} Cache},
+  year         = 2026,
+  month        = may,
+  publisher    = {Zenodo},
+  version      = {1.2},
+  doi          = {10.5281/zenodo.20330468},
+  url          = {https://doi.org/10.5281/zenodo.20330468},
+  note         = {AMD Developer Hackathon 2026 (lablab.ai), Online, May 4--11, 2026}
+}
+```
+
+A machine-readable [`CITATION.cff`](./CITATION.cff) file is also included for GitHub's auto-generated citation widget and reference managers (Zotero, Mendeley, EndNote).
+
+**Versions:**
+- v1.2 (current, URL-verified post-audit): https://doi.org/10.5281/zenodo.20330468
+- All versions (resolves to latest): https://doi.org/10.5281/zenodo.20330467
+
+**Author ORCID:** [0009-0007-0731-4247](https://orcid.org/0009-0007-0731-4247)
