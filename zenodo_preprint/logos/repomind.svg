@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- REPOMIND logo — DAG mark: root + 3 children, one active (red) path.
+     Semantics: code repo file-tree + neural graph + focused chunk (the "needle").
+     Palette: black bg, white nodes, single red "active" node + edge. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#000000" rx="80"/>
+
+  <!-- edges first (under nodes) -->
+  <line x1="256" y1="172" x2="138" y2="350" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
+  <line x1="256" y1="172" x2="256" y2="350" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
+  <line x1="256" y1="172" x2="374" y2="350" stroke="#ED1C24" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- root -->
+  <circle cx="256" cy="172" r="44" fill="#FFFFFF"/>
+  <!-- children -->
+  <circle cx="138" cy="350" r="32" fill="#FFFFFF"/>
+  <circle cx="256" cy="350" r="32" fill="#FFFFFF"/>
+  <circle cx="374" cy="350" r="36" fill="#ED1C24"/>
+</svg>
