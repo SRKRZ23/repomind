@@ -2,9 +2,9 @@
 
 ![REPOMIND — Methodology Preprint Banner](./repomind_banner.png)
 
-> Open-source repo-scale coding agent for self-hosted use. Ingest an entire git repo (256K tokens), reason across it with tools — on a single AMD MI300X.
+> **Cursor charges $40/seat/month and bans your repo from leaving its servers. REPOMIND reads your full 1.3M-token codebase on a single AMD MI300X for $4.12 of compute — fully on-premises, MIT-licensed.**
 
-> 📄 **Methodology preprint (peer-archived):** Razikov, S. (2026). *REPOMIND: Reproducing 256K-context Repository-Scale Code Understanding on a Single AMD MI300X with FP8 KV Cache* (v1.2). AMD Developer Hackathon 2026 (lablab.ai), Online. Zenodo. **DOI: [10.5281/zenodo.20330468](https://doi.org/10.5281/zenodo.20330468)** · CC-BY-4.0 · Indexed in OpenAIRE
+**Verified on real MI300X (May 2026):** 31/31 parallel users at 8K-64K context · 3/3 needle-in-haystack passes at 200K · 9/9 end-to-end repo Q&A on `pytorch/vision` (1.3M tokens, 581 files) · total session cost $4.12 on AMD Developer Cloud.
 
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20330468-red.svg)](https://doi.org/10.5281/zenodo.20330468)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -13,7 +13,7 @@
 [![AMD Hackathon](https://img.shields.io/badge/AMD_Developer_Hackathon-2026-orange)](https://lablab.ai/ai-hackathons/amd-developer)
 [![HF Space](https://img.shields.io/badge/🤗_Hugging_Face-Space-blue)](https://huggingface.co/spaces/lablab-ai-amd-developer-hackathon/repomind)
 
-📄 **Methodology preprint:** [REPOMIND on Zenodo (CC-BY-4.0, 23 pages, peer-archived)](https://doi.org/10.5281/zenodo.20330468) — full benchmarks, AITER backend regression report, reproducibility instructions, and honest limitations. Cite as: Razikov, S. (2026). *REPOMIND.* Zenodo. https://doi.org/10.5281/zenodo.20330468
+📄 **Methodology preprint (peer-archived):** Razikov, S. (2026). *REPOMIND: Reproducing 256K-context Repository-Scale Code Understanding on a Single AMD MI300X with FP8 KV Cache* (v1.2). 23 pages, 62 measured data points, AITER × FP8 backend regression report. **DOI: [10.5281/zenodo.20330468](https://doi.org/10.5281/zenodo.20330468)** · CC-BY-4.0 · Indexed in OpenAIRE
 
 ## What this is
 
