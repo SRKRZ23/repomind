@@ -1,6 +1,6 @@
 # REPOMIND — Extended Stress Test (PHASE 1 + PHASE 2)
 
-Second-session benchmarks, run 2026-05-05 (UTC) → 2026-05-06 (Tashkent),
+Second-session benchmarks, run 2026-05-05 (UTC) → 2026-05-06 (),
 following the 97-min initial stress test in `../`. This session answers
 two open questions left over from session 1:
 

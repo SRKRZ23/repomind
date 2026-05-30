@@ -3,7 +3,7 @@
 ## Methodology, Empirical Benchmarks, and an AITER Attention Backend Regression on Qwen3-Coder-Next-FP8
 
 **Author:** Sardor Razikov ¹  
-**Affiliation:** ¹ Independent ML Engineer, Tashkent, Uzbekistan  
+**Affiliation:** ¹ Independent ML Engineer  
 **Contact:** razikovsardor1@gmail.com  
 **Code:** https://github.com/SRKRZ23/repomind (MIT License)  
 **Demo:** https://huggingface.co/spaces/ZeroR3/repomind  
@@ -344,9 +344,9 @@ The configuration enables a category of on-premises repository-scale coding assi
 
 ## Acknowledgments
 
-The author thanks Hakob Arzumanyan (AMD Developer Community) for the public technical questions ¹¹ that motivated Phase 2 of the empirical session. The author thanks lablab.ai for hosting the AMD Developer Hackathon 2026 ¹² where this work was developed, and Stephen Kimoi (lablab.ai Developer Relations) for the practical AMD MI300X setup tutorial ¹³ that compressed the initial provisioning learning curve. The author thanks the vLLM project for the underlying serving framework, AMD's ROCm team for the day-0 ROCm 7 support for `Qwen3-Coder-Next-FP8`, and Alibaba Cloud's Qwen team for the open-weight FP8 model release.
+The author thanks Hakob Arzumanyan (AMD Developer Community) for the public technical questions ¹¹ that motivated Phase 2 of the empirical session. The author thanks lablab.ai for hosting the AMD Developer Hackathon 2026 ¹² where this work was developed, and lablab.ai Developer Relations team for the practical AMD MI300X setup tutorial ¹³ that compressed the initial provisioning learning curve. The author thanks the vLLM project for the underlying serving framework, AMD's ROCm team for the day-0 ROCm 7 support for `Qwen3-Coder-Next-FP8`, and Alibaba Cloud's Qwen team for the open-weight FP8 model release.
 
-This work was supported by ~$5 of AMD Developer Cloud credits (rerun cost). No external funding, no institutional affiliation beyond the author's independent work in Tashkent.
+This work was supported by ~$5 of AMD Developer Cloud credits (rerun cost). No external funding, no institutional affiliation beyond the author's independent work in .
 
 ---
 
@@ -385,7 +385,7 @@ https://www.amd.com/en/developer/resources/technical-articles/2026/day-0-support
 
 ¹² lablab.ai × AMD Developer Hackathon 2026 (event landing page): https://lablab.ai/ai-hackathons/amd-developer
 
-¹³ Stephen Kimoi (lablab.ai Developer Relations), "AMD + Hugging Face deployment for AI hackathons" tutorial, April 2026, lablab.ai: https://lablab.ai/ai-tutorials/amd-huggingface-deployment-for-ai-hackathons
+¹³ lablab.ai Developer Relations team, "AMD + Hugging Face deployment for AI hackathons" tutorial, April 2026, lablab.ai: https://lablab.ai/ai-tutorials/amd-huggingface-deployment-for-ai-hackathons
 
 ---
 

@@ -218,7 +218,7 @@ COVER_SVG = f"""<?xml version="1.0" encoding="UTF-8"?>
         font-size="13" font-weight="700" fill="#000000">Sardor Razikov</text>
   <text x="155" y="603" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
         font-size="11" font-weight="400" fill="#666666">
-    Independent ML Engineer, Tashkent, Uzbekistan  ·  ORCID 0009-0007-0731-4247
+    Independent ML Engineer  ·  ORCID 0009-0007-0731-4247
   </text>
 
   <text x="1140" y="603" text-anchor="end"

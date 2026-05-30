@@ -208,6 +208,6 @@ for laptop validation.
 - Qwen3-Coder-Next-FP8 model card:
   https://huggingface.co/Qwen/Qwen3-Coder-Next-FP8
 - vLLM 0.17.1 release: ROCm 7.2 support
-- Steve Kimoi tutorial (lablab.ai, 2026-04-30):
+- lablab.ai tutorial (2026-04-30):
   https://lablab.ai/ai-tutorials/amd-huggingface-deployment-for-ai-hackathons
 - REPOMIND GitHub: https://github.com/SRKRZ23/repomind
